@@ -18,17 +18,7 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/about.css">
 
-    <style>
-        .inner-blog .container .inner-main .inner-content .inner-img img {
-            padding: 6px;
-        }
-
-        .inner-blog .container .inner-main .inner-content .inner-desc h4 {
-            margin-top: 10px;
-            margin-bottom: 10px;
-            height: 60px;
-        }
-    </style>
+   
 
 </head>
 
@@ -380,21 +370,8 @@
     </footer>
 
     <!-- end footer -->
-    <script>
-        const cartCount = document.getElementById("cartCount");
-        const orders = JSON.parse(localStorage.getItem('orders')) || [];
-
-        // Cập nhật số lượng đơn hàng
-        cartCount.textContent = orders.length > 0 ? orders.length : '';
-        const cartBody = document.getElementById("cartBody");
-
-        window.onload = function () {
-            const loadingOverlay = document.querySelector('.loading-overlay');
-            loadingOverlay.style.display = 'none'; // Ẩn lớp phủ khi trang đã tải xong
-        };
-    </script>
-
-
+   
+    <script src="../js/about.js"></script>
 
 
 

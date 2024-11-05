@@ -1,0 +1,28 @@
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(10px);
+
+    }
+
+    50% {
+        transform: translateY(-10px);
+
+    }
+}
+
+.bounce-icon {
+    display: inline-block;
+    animation: bounce 0.8s infinite;
+    color: red;
+    font-size: 35px;
+}
+
+#title_a {
+    color: red;
+    font-size: 30px;
+}
+.inner-main {
+    margin-top: 100px;
+}

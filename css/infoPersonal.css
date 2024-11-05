@@ -90,3 +90,6 @@ background-color: cadetblue;
    
 
 }
+#result-name, #result-phone, #result-email, #result-password{
+    color: red;
+}

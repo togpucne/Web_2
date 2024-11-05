@@ -315,3 +315,12 @@
 .inner-header .navbar{
     border-radius: 0;
 }
+.inner-blog .container .inner-main .inner-content .inner-img img {
+    padding: 6px;
+}
+
+.inner-blog .container .inner-main .inner-content .inner-desc h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 60px;
+}

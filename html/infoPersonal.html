@@ -118,26 +118,32 @@
                             <div id="inner-title-1">
                                 <h5>Personal Information</h5>
                             </div>
-                            <div class="inner-name row form-group">
+                            <div class="inner-name row form-group mb-1">
                                 <label for="name" class="col-2">Name: </label>
                                 <div class="inner-title col-10">
                                     <input type="text" class="form-control">
+                                    <p id="result-name">(*)</p>
+
 
 
                                 </div>
                             </div>
-                            <div class="inner-email row form-group">
+                            <div class="inner-email row form-group mb-1">
                                 <label for="email" class="col-2">Email: </label>
                                 <div class="inner-title col-10">
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" id="email">
+                                    <p id="result-email">(*)</p>
+
 
 
                                 </div>
                             </div>
-                            <div class="inner-password row form-group">
+                            <div class="inner-password row form-group mb-1">
                                 <label for="password" class="col-2">Password: </label>
                                 <div class="inner-title col-10">
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control"  id="password">
+                                    <p id="result-password">(*)</p>
+
 
 
                                 </div>
@@ -145,16 +151,16 @@
                             <!--  -->
 
                             <!--  -->
-                            <div class="inner-phone row form-group">
+                            <div class="inner-phone row form-group mb-1">
                                 <label for="phone" class="col-2">Phone: </label>
                                 <div class="inner-title col-10">
-                                    <input type="text" class="form-control">
-                                    <p id="result-phone"></p>
+                                    <input type="text" class="form-control" id="phone">
+                                    <p id="result-phone">(*)</p>
 
 
                                 </div>
                             </div>
-                            <div class="inner-gender row form-group">
+                            <div class="inner-gender row form-group mb-1">
                                 <label for="gender" class="col-2">Gender: </label>
                                 <div class="inner-title col-10">
                                     <input type="radio" class="female" id="female" name="gender">
@@ -198,6 +204,11 @@
     <script src="../js/updateQuantity.js">
 
     </script>
+    <script src="../js/infoPersonal.js">
+
+
+
+    </script>
 
 
 
@@ -232,182 +243,7 @@
     <script src="../js/custom.js"></script>
     <!-- nav.js -->
     <script src="../js/nav.js"></script>
-    <script>
-        let currentUser = localStorage.getItem("currentUser");
-        let user_email = localStorage.getItem("userEmail");
-        let user_password = localStorage.getItem("userPassword");
-
-        if (currentUser) {
-            document.getElementById("userName").innerText = currentUser;
-            document.getElementById("userGreeting").style.display = "block";
-            document.getElementById("userProfile").style.display = "none";
-
-            const nameInput = document.querySelector(
-                ".info .inner-wrap .inner-right .inner-name .inner-title input"
-            );
-            nameInput.placeholder = currentUser;
-            const emailInput = document.querySelector(
-                ".info .inner-wrap .inner-right .inner-email .inner-title input"
-            );
-            emailInput.placeholder = user_email;
-            const passwordInput = document.querySelector(
-                ".info .inner-wrap .inner-right .inner-password .inner-title input"
-            );
-            passwordInput.placeholder = user_password;
-        } else {
-            document.getElementById("userGreeting").style.display = "none";
-            document.getElementById("userProfile").style.display = "block";
-        }
-        let btnSignUp = document.querySelector("#btnSignUp");
-        let btnClose = document.querySelector("#btnClose");
-        let btnSignOut = document.querySelector("#btnSignOut");
-
-
-        btnClose.addEventListener("click", () => {
-            window.location.href = "../html/home.html";
-        });
-        btnSignOut.addEventListener("click", () => {
-
-            localStorage.setItem("userProfileVisible", "false");
-            alert("Sign Out Successfully")
-            window.location.href = "../html/login.html";
-
-
-        });
-        let personal = document.querySelector(".info .inner-wrap .inner-left .inner-name .inner-title");
-        personal.innerHTML = currentUser;
-
-        let phone = document.querySelector(".info .inner-wrap .inner-right .inner-phone input");
-        let result_phone = document.querySelector("#result-phone");
-        result_phone.innerHTML = '(*)';
-        result_phone.style.color = 'red';
-
-
-        phone.addEventListener('blur', () => {
-            let phoneInput = phone.value.trim();
-            let phonePattern = /^0[0-9]{9}$/;
-            let result_phone = document.querySelector("#result-phone");
-
-            if (phoneInput === "") {
-                result_phone.innerHTML = '(*)';
-                result_phone.style.color = 'red';
-
-
-
-            }
-            else if (!phonePattern.test(phoneInput)) {
-                result_phone.innerHTML = '* The phone number must be exactly 10 digits long and start with a 0.';
-                result_phone.style.color = 'red';
-                phone.classList.add('input-error');
-                phone.classList.remove('input-success');
-
-            } else {
-                result_phone.innerHTML = 'Confirm phone!';
-                result_phone.style.color = 'green';
-                phone.classList.remove('input-error');
-                phone.classList.add('input-success');
-            }
-        });
-
-        //  phone
-
-        btnSignUp.addEventListener('click', () => {
-
-            let nameInputElement = document.querySelector(".info .inner-wrap .inner-right .inner-name .inner-title input");
-            let emailInputElement = document.querySelector(".info .inner-wrap .inner-right .inner-email .inner-title input");
-            let passwordInputElement = document.querySelector(".info .inner-wrap .inner-right .inner-password .inner-title input");
-            let phoneInputElement = document.querySelector(".info .inner-wrap .inner-right .inner-phone input");
-
-            let nameInputValue = nameInputElement.value.trim();
-            let emailInputValue = emailInputElement.value.trim();
-            let passwordInputValue = passwordInputElement.value.trim();
-            let phoneInputValue = phoneInputElement.value.trim();
-
-
-
-            let genderValue = document.querySelector('input[name="gender"]:checked') ? document.querySelector('input[name="gender"]:checked').id : '';
-
-            if (nameInputValue) {
-                localStorage.setItem("currentUser", nameInputValue);
-            }
-            if (emailInputValue) {
-                localStorage.setItem("userEmail", emailInputValue);
-            }
-            if (passwordInputValue) {
-                localStorage.setItem("userPassword", passwordInputValue);
-            }
-            if (phoneInputValue) {
-                localStorage.setItem("userPhone", phoneInputValue);
-            }
-            if (genderValue) {
-                localStorage.setItem("userGender", genderValue);
-            }
-
-
-
-
-            alert('Update Successfully');
-
-
-            location.reload();
-        });
-
-
-
-        window.onload = () => {
-            let currentUser = localStorage.getItem("currentUser") || '';
-            let userEmail = localStorage.getItem("userEmail") || '';
-            let userPassword = localStorage.getItem("userPassword") || '';
-            let userPhone = localStorage.getItem("userPhone");
-            let userGender = localStorage.getItem("userGender");
-
-
-            if (currentUser) {
-                document.getElementById("userName").innerText = currentUser;
-                document.querySelector(".info .inner-wrap .inner-right .inner-name .inner-title input").placeholder = currentUser;
-            }
-
-            if (userEmail) {
-                document.querySelector(".info .inner-wrap .inner-right .inner-email .inner-title input").placeholder = userEmail;
-            }
-
-            if (userPassword) {
-                document.querySelector(".info .inner-wrap .inner-right .inner-password .inner-title input").placeholder = userPassword;
-            }
-
-            if (userPhone && userPhone.trim() !== '') {
-                document.querySelector(".info .inner-wrap .inner-right .inner-phone input").placeholder = userPhone;
-            } else {
-                document.querySelector(".info .inner-wrap .inner-right .inner-phone input").placeholder = '';
-            }
-
-            if (userGender === "female") {
-                document.getElementById("female").checked = true;
-            } else if (userGender === "male") {
-                document.getElementById("male").checked = true;
-            } else {
-                document.getElementById("female").checked = false;
-                document.getElementById("male").checked = false;
-            }
-            if (userPhone && userPhone.trim() !== '') {
-                document.querySelector(".info .inner-wrap .inner-right .inner-phone input").placeholder = userPhone;
-            } else {
-                document.querySelector(".info .inner-wrap .inner-right .inner-phone input").placeholder = '';
-            }
-
-            if (userGender === "female") {
-                document.getElementById("female").checked = true;
-            } else if (userGender === "male") {
-                document.getElementById("male").checked = true;
-            } else {
-                document.getElementById("female").checked = false;
-                document.getElementById("male").checked = false;
-            }
-        };
-
-
-
-    </script>
+    <script></script>
 
 
 
