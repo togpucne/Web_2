@@ -1,0 +1,317 @@
+/* background1 */
+/* Background chính */
+.background-1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imgs/backgroung_login/pexels-fauxels-3183132.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lớp phủ mờ */
+.background-1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+
+    z-index: 1; /* Lớp phủ nằm trên ảnh nền */
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Nội dung bên trong */
+.background-1 .logo {
+    position: relative; /* Nội dung sẽ nằm trên lớp phủ */
+    z-index: 2; /* Đảm bảo nội dung nằm trên lớp phủ */
+    background-color: transparent; /* Bỏ màu nền nếu muốn thấy ảnh nền phía sau chữ */
+    padding: 20px;
+    width: 1000px;
+}
+
+.background-1 .inner-title {
+    color: white;
+   
+    font-size: 70px;
+    z-index: 99999; 
+    position: relative; 
+}
+.background-1 .inner-desc{
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.button {
+    background-color: black;
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded button */
+    padding: 12px 24px; /* Padding for a bigger button */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer on hover */
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid black;
+
+}
+
+.button:hover {
+    background-color: #A9A9A9; /* Slightly darker orange on hover */
+    transform: translateY(-2px); /* Lift effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+    border: 1px solid #A9A9A9;
+
+}
+
+.button:active {
+    transform: translateY(0); /* Remove lift on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Softer shadow on click */
+}
+.button-our{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+
+
+
+
+/* end background1 */
+
+
+/* blog */
+.inner-blog .container .inner-main .inner-content .inner-desc h4{
+    margin-top: 10px;
+ margin-bottom: 10px;
+ }
+ 
+ .inner-blog .container .inner-main .inner-content .inner-img img{
+     
+     width: 100%;
+     height: 250px;
+     object-fit: cover;
+     border-radius: 50px;
+ }
+ .inner-blog{
+     margin-top: 80px;
+     text-align: center;
+ }
+ .inner-blog .container .inner-main .inner-box{
+     margin-bottom: 30px;
+     border: none;
+ }
+.inner-content {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.inner-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.inner-content:hover .inner-img img {
+    filter: brightness(80%); 
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+ 
+ /* responsive */
+ 
+ @media screen and (max-width: 992px){
+     .inner-blog .container .inner-main .inner-content .inner-img img {
+         height: 200px;
+     }
+     .inner-blog .container .inner-main .inner-content .inner-desc h4 {
+         font-size: 20px;
+     }
+     .inner-blog .container .inner-main .inner-content .inner-desc{
+         font-size: 15px;
+         margin-top: 10px;
+     }
+ }
+ @media screen and (max-width: 776px){
+     .inner-blog .container .inner-main .col-xl-4 {
+         margin-bottom: 40px;
+     }
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ /* end blog */
+ 
+ 
+ /* blog */
+ .hr1{
+     margin-top: 100px;
+ }
+ 
+ /* end blog  */
+ 
+ 
+     @media (max-width: 1200px) {
+           .inner-banner1{
+             width: 100%;
+             object-fit: contain;
+           }
+         }
+ 
+ /* icon call */
+ @keyframes ring {
+     0% {
+         transform: rotate(0deg);
+     }
+     10% {
+         transform: rotate(15deg);
+     }
+     20% {
+         transform: rotate(-15deg);
+     }
+     30% {
+         transform: rotate(15deg);
+     }
+     40% {
+         transform: rotate(-15deg);
+     }
+     50% {
+         transform: rotate(0deg);
+     }
+     100% {
+         transform: rotate(0deg);
+     }
+ }
+ 
+ /* icon call */
+ .inner-call a {
+     position: fixed;
+     border-radius: 50%;
+     height: 60px;
+     width: 60px;
+     background-color: skyblue;
+     color: whitesmoke;
+     font-size: 25px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     right: 10px;
+     top: 700px;
+     z-index: 9999;
+     animation: ring 2s infinite; /* Thêm animation */
+     vertical-align: middle;
+     overflow-clip-margin: content-box;
+     overflow: clip;
+     cursor: pointer;
+ }
+ .nav-item:hover{
+     color: black !important;
+ }
+ 
+ 
+ /* end icon call  */
+ 
+/* talk to us */
+.inner-talk{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+.inner-talk .container .inner-wrap .inner-head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* end talk to us */
+/* product inner-tile */
+.products .container .inner-title {
+ 
+    margin: 20px 0px;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+.products .container .inner-title .inner-title-1{
+    font-size: 34px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.products .container .inner-title a{
+    margin-right: 20px;
+    border: 1px solid #1e1e1e;
+}
+.products .container .inner-title .a{
+    color: darkgray;
+   
+}
+.products .container .inner-title .a:hover {
+    color: white;
+    background-color: #333;
+
+
+
+}
+
+/* end talk  */
+/* nav collapse */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: black;
+    }
+    .navbar-nav .nav-link {
+        color: white;
+    }
+    .navbar-nav .nav-item {
+        padding-left: 0px;
+    }
+}
+/* end nav collapse */
+/* icon call */
+.inner-call a {
+    position: fixed;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: skyblue;
+    color: whitesmoke;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    right: 20px;
+    top: 500px;
+    z-index: 9999;
+    animation: ring 2s infinite; /* Thêm animation */
+    vertical-align: middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    cursor: pointer;
+}
+.nav-item:hover{
+    color: black !important;
+}
+
+
+/* end icon call  */
+.inner-header .navbar{
+    border-radius: 0;
+}

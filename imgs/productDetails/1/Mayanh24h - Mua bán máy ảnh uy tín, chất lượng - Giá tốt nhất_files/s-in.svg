@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.974" height="18.974" viewBox="0 0 18.974 18.974">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_339" data-name="Group 339">
+        <path id="prefix__Path_478" d="M658.082 5861.672h.005v-6.96c0-3.4-.733-6.026-4.713-6.026a4.132 4.132 0 0 0-3.721 2.046h-.053V5849h-3.773v12.668h3.929v-6.268c0-1.65.313-3.249 2.359-3.249 2.015 0 2.045 1.886 2.045 3.354v6.168zm0 0" class="prefix__cls-1" data-name="Path 478" transform="translate(-639.113 -5842.698)"/>
+        <path id="prefix__Rectangle_64" d="M0 0H3.934V12.667H0z" class="prefix__cls-1" data-name="Rectangle 64" transform="translate(.313 6.306)"/>
+        <path id="prefix__Path_479" d="M639.1 5840.655a2.289 2.289 0 1 0 2.278 2.278 2.279 2.279 0 0 0-2.278-2.278zm0 0" class="prefix__cls-1" data-name="Path 479" transform="translate(-636.824 -5840.655)"/>
+    </g>
+</svg>

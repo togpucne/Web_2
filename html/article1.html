@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../boostrap/all.min.css">
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+
+    <title>JudoAnde</title>
+    <link rel="shortcut icon" href="../imgs/225186191-ch198176a-c195179-t195170n.svg" type="image/x-icon">
+    <!-- product -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" href="../css/templatemo-hexashop.css">
+    <link rel="stylesheet" href="../css/owl-carousel.css">
+    <!--end product  -->
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/adversiting.css">
+    <style>
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(10px);
+
+            }
+
+            50% {
+                transform: translateY(-10px);
+
+            }
+        }
+
+        .bounce-icon {
+            display: inline-block;
+            animation: bounce 0.8s infinite;
+            color: red;
+            font-size: 35px;
+        }
+
+        #title_a {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- </header> -->
+    <header class="inner-header">
+        <nav class="navbar navbar-expand-lg navbar-dark inner-content">
+            <div class="container">
+                <a class="navbar-brand i1" href="../html/home.html">
+                    <img src="../imgs/Remove-bg.ai_1725192433075.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse inner-menu" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active z1">
+                            <a class="nav-link" href="../html/home.html" style="color: whitesmoke;">Home</a>
+                        </li>
+                        <li class="nav-item z1">
+                            <a class="nav-link" href="../html/products.html" style="color: whitesmoke;">Products</a>
+                        </li>
+                        <li class="nav-item z1">
+                            <a class="nav-link" href="../html/about.html" style="color: whitesmoke;">About</a>
+                        </li>
+                        <li class="nav-item z1">
+                            <a class="nav-link" href="../html/contact.html" style="color: whitesmoke;">Contact</a>
+                        </li>
+                        <li class="nav-item z1">
+                            <a class="nav-link" href="../html/sitemap.html" style="color: whitesmoke;">Sitemap</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-block">
+                        <form class="form-inline my-2 my-lg-0 inner-search">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search..."
+                                aria-label="Search" style="border: none; background-color: #F0F0F0;">
+                            <button type="submit" class="btn my-2 my-sm-0">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="userProfile">
+                            <a class="nav-link" href="./login.html" style="color: whitesmoke;">
+                                <i class="fa-solid fa-user-plus"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" id="userGreeting" style="display: none;">
+                            <a class="nav-link" href="./infoPersonal.html" style="color: whitesmoke;">
+
+                                <span id="userName"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shopping.html" style="color: whitesmoke;">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span id="cartCount" style="color: black; font-weight: bold; position: absolute; top: 0px;right: -3px; font-size: 14px;"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- style -->
+    <style>
+        .img-1 {
+            border-radius: 10px;
+            width: 100%;
+        }
+
+
+        .inner-main .container .inner-content .inner-top {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .inner-main .container .inner-content .inner-title {
+            position: absolute;
+            font-size: 23px;
+            bottom: -10px;
+            left: 50px;
+        }
+
+        .inner-box-1 img {
+            width: 100%;
+            border-radius: 10px;
+
+        }
+
+        .inner-main .container .inner-content .inner-bottom .inner-box-1 {
+            border: 1px solid darkgrey;
+            border-radius: 10px;
+            padding: 5px;
+            height: 480px;
+        }
+
+        .inner-main .container .inner-content .inner-bottom .inner-box-1 .inner-title-1 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+        }
+
+        .inner-main .container .inner-content .inner-bottom .inner-box-1 .inner-date {
+            margin-bottom: 20px;
+            color: darkgray;
+        }
+
+        .inner-main .container .inner-content .inner-bottom .inner-box-1 .inner-desc-1 {
+            margin-bottom: 20px;
+            color: darkgray;
+            font-size: 14px;
+        }
+
+        .inner-social {
+            background-color: rgb(208, 203, 203);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 60px;
+        }
+
+        .inner-social .inner-thamGia {
+            text-align: center;
+        }
+
+        .inner-social .inner-thamGia span {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .youtube,
+        .zalo {
+            background-color: #E52828;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px 30px;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+
+        }
+
+        .inner-icon {
+            padding: 0px 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+
+
+        }
+
+        .face {
+            background-color: #0063D1;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px 0px;
+            color: white;
+            cursor: pointer;
+
+            width: 100%;
+        }
+
+        .zalo {
+            background-color: #0FA8E1;
+            width: 100%;
+
+        }
+
+        .face img {
+            height: 40px;
+        }
+
+        .inner-baiViet .inner-thamGia {
+            text-align: center;
+        }
+
+        .inner-baiViet {
+            border: 1px solid darkgrey;
+            border-radius: 10px;
+        }
+
+        .inner-banner {
+            margin-bottom: 20px;
+        }
+
+        .inner-tags button {
+            border: 1px solid skyblue;
+        }
+
+        .aa {
+            font-weight: bold;
+        }
+
+        .inner-resouce {
+            text-align: right;
+            font-style: italic;
+        }
+
+        .inner-title-111 span {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .inner-title-111 {
+            margin-bottom: 20px;
+
+        }
+
+        .inner-date span {
+            font-style: italic;
+        }
+
+        .inner-date {
+            margin-bottom: 20px;
+            color: rgb(140, 139, 139);
+
+        }
+
+        .inner-main .inner-content .inner-content {
+            color: rgb(83, 81, 81);
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+
+        .inner-main .inner-content .inner-img {
+            text-align: center;
+
+        }
+
+        .inner-main .inner-content .inner-img img {
+            width: 80%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .inner-img {
+            position: relative;
+            overflow: hidden;
+            height: auto;
+        }
+
+        .inner-img img {
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+            border-radius: 10px;
+            border-radius: 10px;
+
+        }
+
+        .inner-img:hover img {
+            transform: scale(1.05);
+            border-radius: 10px;
+
+        }
+        .inner-bonus{
+            margin-top: 30px;
+
+        }
+        .inner-bonus a{
+            color: black;
+            font-weight: bold;
+            font-size: 30px;
+        }
+    </style>
+
+
+    <!-- End header -->
+    <!-- Main -->
+    <main class="inner-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-content">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="inner-banner">
+                                    <img src="../imgs/article1/banner-sony-khuyen-mai-thang-10-top.png" alt="">
+                                    <img src="../imgs/article1/top-banner-treo-phu-kien-may-anh.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="inner-article">
+                                    <div class="inner-title-111">
+                                        <span> Fujifilm X-M5 Được Trang Bị Hệ Thống Lấy Nét Tự Động Mới?
+                                        </span>
+                                    </div>
+                                    <div class="inner-date">
+                                        <span> Ngày đăng: 09/10/2024 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Lượt xem:
+                                            650
+                                        </span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <span>Fujifilm X-M5 là chiếc máy ảnh mirrorless mới nhất trong dòng X series, dự
+                                            kiến ra mắt vào ngày 14 tháng 10 năm 2024. Đây là phiên bản tiếp nối với
+                                            nhiều cải tiến, giữ lại sự nhỏ gọn và linh hoạt từ các mẫu trước như X-M1 và
+                                            X-E4, nhưng được nâng cấp để đáp ứng nhu cầu cao hơn của người dùng. Với
+                                            thiết kế pha trộn giữa phong cách cổ điển và những yếu tố hiện đại, X-M5
+                                            mang đến trải nghiệm hình ảnh chất lượng mà vẫn tối ưu tính di động.
+
+                                        </span>
+                                    </div>
+                                    <div class="inner-img">
+                                        <img src="../imgs/article1/fujifilm-x-m5-duoc-trang-bi-he-thong-lay-net-tu-dong-moi-1.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="inner-content">
+                                        <span>Fujifilm đã thông báo rằng họ sẽ nâng cấp hệ thống lấy nét cho các dòng
+                                            máy trong thời gian tới. Trong video giới thiệu sự kiện X-Summit sắp diễn
+                                            ra, ông Yuji Igarashi đã hé lộ về bản cập nhật lấy nét dự kiến sẽ được phát
+                                            hành vào tháng 11. X-M5 có thể sẽ được tích hợp sẵn công nghệ này ngay khi
+                                            ra mắt, trong khi các mẫu cao cấp như X-H2s, X-H2, GFX100 II và các máy thế
+                                            hệ thứ năm như X-T5, X-S20 sẽ được cập nhật sau đó. Fujifilm đang tiến hành
+                                            thử nghiệm kỹ lưỡng firmware để đảm bảo chất lượng khi ra mắt.
+
+
+
+                                        </span>
+                                    </div>
+                                    <div class="inner-img">
+                                        <img src="../imgs/article1/fujifilm-x-m5-duoc-trang-bi-he-thong-lay-net-tu-dong-moi-4.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="inner-content">
+                                        <span>X-M5 được thiết kế nhỏ gọn hơn cả X-E4, nhờ việc loại bỏ kính ngắm điện tử
+                                            (EVF). Điều này giúp máy trở nên lý tưởng cho những người dùng cần một thiết
+                                            bị nhẹ nhàng, dễ di chuyển mà vẫn đảm bảo chất lượng hình ảnh. Máy có ba
+                                            vòng xoay chính, với vòng xoay bên trái dành cho chế độ giả lập màu phim của
+                                            Fujifilm (Film Simulation), và hai vòng xoay bên phải cho chế độ PSAM cùng
+                                            một vòng xoay tùy chỉnh theo sở thích cá nhân.
+
+
+
+                                        </span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <span>Fujifilm cũng trang bị cho X-M5 cần điều khiển joystick để dễ dàng điều
+                                            hướng và thao tác nhanh chóng các thông số. Đèn flash pop-up đã được loại bỏ
+                                            để giữ cho thiết kế máy gọn gàng hơn, đồng thời tạo thêm không gian cho các
+                                            vòng xoay điều khiển.
+
+
+                                        </span>
+                                    </div>
+                                    <div class="inner-img">
+                                        <img src="../imgs/article1/fujifilm-x-m5-duoc-trang-bi-he-thong-lay-net-tu-dong-moi-3.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="inner-content">
+                                        <span>Với sự kết hợp giữa nét thiết kế cổ điển và tính năng hiện đại, Fujifilm
+                                            X-M5 là một lựa chọn tuyệt vời cho những ai cần một chiếc máy ảnh nhỏ gọn
+                                            nhưng mạnh mẽ. Phù hợp cho cả nhiếp ảnh gia lẫn vlogger, X-M5 không chỉ đáp
+                                            ứng tốt nhu cầu chụp ảnh mà còn quay video chất lượng cao.
+
+
+                                        </span>
+                                    </div>
+                                    <div class="inner-resouce">
+                                        <span class="aa">Nguồn:
+
+                                        </span>Fujifilmrumors
+                                    </div>
+                                    <div class="inner-tags">
+                                        <span class="aa">Tags: </span>
+                                        <button class="btn">Fujifilm</button> <button class="btn">Hồng Quân</button>
+                                        <button class="btn">Nobita</button> <button class="btn">Toyota</button>
+                                    </div>
+                                    <div class="inner-bonus">
+                                        <span><a href="../html/article2.html">Xem thêm bài viết <font style="color:blue;">tham khảo thêm</font></a></span>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="col-4">
+                                <div class="inner-social">
+                                    <div class="inner-thamGia">
+                                        <span>THAM GIA CỘNG ĐỒNG</span>
+                                    </div>
+                                    <div class="inner-icon mb-2">
+                                        <div class="youtube">
+                                            <img src="../imgs/adversiting/icon_youtube/youtube.png" alt=""> JudoAnde
+                                        </div>
+                                    </div>
+                                    <div class="inner-icon mb-2">
+                                        <div class="face">
+                                            <img src="../imgs/adversiting/icon_youtube/face.png" alt=""> Office.JudoAnde
+                                        </div>
+                                    </div>
+                                    <div class="inner-icon">
+                                        <div class="zalo">
+                                            <img src="../imgs/adversiting/icon_youtube/zalo.png" alt=""> (098).1241.1474
+                                        </div>
+                                    </div>
+                                </div>
+                                <style>
+                                    .inner-baiViet .inner-box {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin-top: 20px;
+                                        margin-bottom: -20px;
+                                        height: 128px;
+
+                                    }
+
+                                    .inner-baiViet .inner-box .inner-img {
+                                        width: 30%;
+                                    }
+
+                                    .inner-baiViet .inner-box .inner-content {
+                                        text-align: left;
+                                        flex: 1;
+                                        margin-left: 10px;
+                                        color: rgb(109, 109, 109);
+                                        font-size: 15px;
+                                    }
+
+                                    .inner-box-1 img,
+                                    .inner-top .img-1,
+                                    .inner-baiViet .inner-box .inner-img img {
+                                        transition: transform 0.3s;
+                                        cursor: pointer;
+                                    }
+
+                                    .inner-box-1 img:hover,
+                                    .inner-top .img-1:hover,
+                                    .inner-baiViet .inner-box .inner-img img:hover {
+                                        transform: scale(1.1);
+
+                                        /* Phóng to 10% */
+                                    }
+
+                                    .inner-box-1,
+                                    .inner-top,
+                                    .inner-baiViet .inner-box {
+                                        transition: opacity 0.3s;
+                                        overflow: hidden;
+                                        border-radius: 10px;
+                                    }
+
+                                    .inner-img-1111 {
+                                        margin-top: 50px;
+                                    }
+
+                                    .inner-img-1111 img {
+                                        border-radius: 10px;
+                                    }
+                                    .inner-banner img{
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                            
+                                    }
+                                </style>
+                                <div class="inner-baiViet">
+                                    <div class="inner-thamGia">
+                                        <span>BÀI VIẾT XEM NHIỀU NHẤT </span>
+                                    </div>
+                                    <div class="inner-box">
+                                        <div class="inner-img">
+                                            <img src="../imgs/adversiting/chiTiet/huong-dan-su-dung-canon-5d-mark-iii.png"
+                                                alt="">
+
+                                        </div>
+                                        <div class="inner-content">
+                                            <span>Kinh nghiệm khi mua máy ảnh cũ </span> <br>
+                                            <span class="inner-date">10/02/2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="inner-box">
+                                        <div class="inner-img">
+                                            <img src="../imgs/adversiting/chiTiet/huong-dan-tieng-viet-canon-7d.jpg"
+                                                alt="">
+
+                                        </div>
+                                        <div class="inner-content">
+                                            <span>Hướng dẫn sử dụng tiếng việt Canon EOS 7D</span> <br>
+                                            <span class="inner-date">18/07/2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="inner-box">
+                                        <div class="inner-img">
+                                            <img src="../imgs/adversiting/chiTiet/huong-dan-tieng-viet-canon-550d.png"
+                                                alt="">
+
+                                        </div>
+                                        <div class="inner-content">
+                                            <span>Hướng dẫn sử dụng tiếng việt Canon EOS 555D</span> <br>
+                                            <span class="inner-date">20/11/2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="inner-box" style="padding-bottom: 0px; margin-bottom: 0px;">
+                                        <div class="inner-img">
+                                            <img src="../imgs/adversiting/chiTiet/mua-may-anh-cu-12.png" alt="">
+
+                                        </div>
+                                        <div class="inner-content">
+                                            <span>Kinh nghiệm khi lên đời máy ảnh </span> <br>
+                                            <span class="inner-date">19/09/2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-img-1111">
+
+                                    <a href="../html/products.html"> <img src="../imgs/article1/v860-tintuc.jpg" alt="">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- End Main -->
+
+
+
+
+    <!-- footer -->
+    <footer class="inner-footer fixed-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="inner-box1">
+                        <img src="../imgs/Remove-bg.ai_1725192433075.png" alt="" class="img-footer">
+                        <span class="inner-desc">
+                            Được quản lý bởi công ty JUDOANDE
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="inner-box2">
+                        <h2>Contact Information:</h2>
+                        <span>
+                            <i class="fa-solid fa-location-crosshairs"></i> Nguyen Van Bao, P5, Q.GV, HCM.
+                        </span> <br>
+                        <span>
+                            <i class="fa-solid fa-phone-volume"></i> 0933.44.0262
+                        </span> <br>
+                        <span>
+                            <i class="fa-solid fa-envelope"></i> Email: judoande@gmail.com
+                        </span>
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="inner-box3">
+                        <div class="inner-title">
+                            <h2>Pay:</h2>
+                        </div>
+                        <div class="inner-pay">
+                            <a href="#"><img src="../imgs/pay/pay_1.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_7.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_6.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_5.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_4.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_3.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_2.webp" alt=""></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-main">
+                        <div class="inner-box">
+                            <a href="#"> <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-tiktok"></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+     <script src="../js/updateQuantity.js">
+
+     </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="../boostrap/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="../boostrap/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <!-- product -->
+    <!-- jQuery -->
+    <script src="../js/jquery-2.1.0.min.js"></script>
+    <!-- Plugins -->
+    <script src="../js/owl-carousel.js"></script>
+    <!-- Global Init -->
+    <script src="../js/custom.js"></script>
+    <!-- nav.js -->
+    <script src="../js/nav.js"></script>
+    <!-- slick nav  -->
+    <script src="../js/slick_nav.js"></script>
+
+    <!-- slick Sign Out -->
+    <script src="../js/slick_Sign_Out.js"></script>
+
+</body>
+
+</html>

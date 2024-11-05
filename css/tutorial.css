@@ -1,0 +1,70 @@
+.inner-main {
+    margin-top: 100px;
+}
+.inner-wrap {
+    text-align: left;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.a {
+    color: black;
+    font-weight: bold;
+    color: rgb(204, 22, 22);
+    margin-bottom: 20px;
+}
+
+.inner-main .container .row .inner-box .inner-wrap .inner-historical .inner-img-a {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.inner-main .container .row .inner-box .inner-wrap .inner-historical .inner-img-a img {
+    border-radius: 10px;
+}
+
+.inner-main .container .row .inner-box .inner-wrap .inner-historical .inner-img-a .inner-desc {
+    text-align: center;
+    color: rgb(244, 72, 72);
+    font-weight: bold;
+}
+
+.a {
+    margin-bottom: 200px;
+}
+
+.inner-main .container .inner-box .inner-wrap .inner-box {
+    cursor: pointer;
+}
+
+iframe {
+    width: 100%;
+
+}
+
+.a1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inner-wrap .inner-historical .inner-stt .inner-input .inner-title {
+    text-align: center;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.inner-wrap .inner-historical .inner-stt .inner-input button {
+    text-align: left;
+    height: 50px;
+}
+
+.inner-wrap .inner-historical .inner-stt .inner-input input {
+    height: 50px;
+}
+.return{
+    display: block; text-align: left;
+    
+}

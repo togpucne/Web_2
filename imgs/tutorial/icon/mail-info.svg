@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+    <defs>
+        <style>
+            .cls-1{fill:#0063d1}
+        </style>
+    </defs>
+    <g id="Group_1962" data-name="Group 1962" transform="translate(-2423.164 9548.324)">
+        <g id="Group_1961" data-name="Group 1961">
+            <path id="Path_789" d="M2468.565-9529.324h-28.8a3.369 3.369 0 0 0-3.359 3.36v17.28a3.37 3.37 0 0 0 3.36 3.359h28.8a3.369 3.369 0 0 0 3.359-3.359v-17.281a3.368 3.368 0 0 0-3.36-3.359zm0 21.889h-28.8a1.25 1.25 0 0 1-1.248-1.248v-17.28a1.249 1.249 0 0 1 1.248-1.248h28.8a1.249 1.249 0 0 1 1.248 1.248v17.28a1.25 1.25 0 0 1-1.249 1.247z" class="cls-1" data-name="Path 789"/>
+            <path id="Path_790" d="M2468.02-9526.87l-12.62 7.57a2.388 2.388 0 0 1-2.469 0l-12.629-7.577a1.056 1.056 0 0 0-1.441.388 1.055 1.055 0 0 0 .361 1.428l12.623 7.572a4.5 4.5 0 0 0 2.321.646 4.49 4.49 0 0 0 2.32-.646l12.624-7.572a1.057 1.057 0 0 0 .361-1.449 1.058 1.058 0 0 0-1.451-.36z" class="cls-1" data-name="Path 790"/>
+        </g>
+        <circle id="Ellipse_55" cx="30" cy="30" r="30" fill="none" stroke="#0063d1" stroke-miterlimit="10" stroke-width="2px" data-name="Ellipse 55" transform="translate(2424.164 -9547.324)"/>
+    </g>
+</svg>

@@ -1,0 +1,440 @@
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../boostrap/all.min.css">
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+
+    <title>JudoAnde</title>
+    <link rel="shortcut icon" href="../imgs/225186191-ch198176a-c195179-t195170n.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="inner-header">
+        <nav class="navbar navbar-expand-lg navbar-dark inner-content">
+            <div class="container">
+                <a class="navbar-brand i1" href="../html/home.html">
+                    <img src="../imgs/Remove-bg.ai_1725192433075.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse inner-menu" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../html/home.html" style="color: whitesmoke;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/products.html" style="color: whitesmoke;">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/about.html" style="color: whitesmoke;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contact.html" style="color: whitesmoke;">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/sitemap.html" style="color: whitesmoke;">Sitemap</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-block">
+                        <form class="form-inline my-2 my-lg-0 inner-search">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search..."
+                                aria-label="Search" style="border: none; background-color: #F0F0F0;">
+                            <button type="submit" class="btn my-2 my-sm-0">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="userProfile">
+                            <a class="nav-link" href="./login.html" style="color: whitesmoke;">
+                                <i class="fa-solid fa-user-plus"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" id="userGreeting" style="display: none;">
+                            <a class="nav-link" href="./login.html" style="color: whitesmoke;">
+
+                                <span id="userName"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shopping.html" style="color: whitesmoke;">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <style>
+        .password-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .password-container i {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .fa-eye-slash {
+            color: #000;
+        }
+
+        .fa-eye {
+            color: #000;
+        }
+    </style>
+    <!-- Section -->
+    <!-- Section -->
+    <section class="section11">
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" id="nameInput" class="a" />
+                    <p class="result-name"></p>
+                    <input type="email" placeholder="Email" id="emailInput" class="a" />
+                    <p class="result-email"></p>
+
+                    <div class="password-container">
+                        <input type="password" placeholder="Password" id="passwordInput" class="a" />
+                        <i class="fa fa-eye-slash" id="togglePassword"></i>
+                    </div>
+
+                    <p class="result-password"></p>
+
+                    <button id="btnSignUp">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" placeholder="Email" id="emailInputSignIn" class="a" />
+                    <div class="password-container">
+                        <input type="password" placeholder="Password" id="passwordInputSignIn" class="a" />
+                        <i class="fa fa-eye-slash" id="togglePasswordSignIn"></i>
+                    </div>
+                    <a href="#">Forgot your password?</a>
+                    <button type="submit" class="sign-in-button">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p class="b">To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hi, You!</h1>
+                        <p>Enter your personal details and explore company JudoAnde</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-9bUOjU85L9LxmbuToAtFNe8yNfJP6lvklI2zkjyl5/z3J27gF5f1RJITJnvqEuHJzMzt9hVP/9ZZq8LwZ1k6Dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz4fnFO9B08D93z+R0gPucXMYfP2T9Th02dLUwiQv1f2DDuR39HX+NlDs4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+        integrity="sha512-sMjZt2zSb6HEkfq5qEwSFX3oq5Zf9DPd8YfQPRfIhN1Vc0mwo9MT2QX7Xz/FjFoA8ArfbQZ4U74K0FnDwSw1ow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/index.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/nav.js"> </script>
+    <!--  -->
+
+    <!-- end section -->
+    <script>
+        let passwordInput = document.querySelector("#passwordInput");
+        let togglePassword = document.querySelector("#togglePassword");
+
+        // Hiện/ẩn mật khẩu trong phần đăng ký
+
+
+        togglePassword.addEventListener("click", function () {
+            const type = passwordInput.getAttribute("type") === "password" ? "text" : "password";
+            passwordInput.setAttribute("type", type);
+            this.classList.toggle("fa-eye-slash");
+            this.classList.toggle("fa-eye");
+        });
+
+        // Hiện/ẩn mật khẩu trong phần đăng nhập
+        let passwordInputSignIn = document.querySelector("#passwordInputSignIn");
+        let togglePasswordSignIn = document.querySelector("#togglePasswordSignIn");
+
+        togglePasswordSignIn.addEventListener("click", function () {
+            const type = passwordInputSignIn.getAttribute("type") === "password" ? "text" : "password";
+            passwordInputSignIn.setAttribute("type", type);
+            this.classList.toggle("fa-eye-slash");
+            this.classList.toggle("fa-eye");
+        });
+
+
+
+        let nameInput = document.querySelector("#nameInput");
+        let emailInput = document.querySelector("#emailInput");
+
+        let namPattern = document.querySelector(".result-name");
+        let result_email = document.querySelector(".result-email");
+        let result_password = document.querySelector(".result-password");
+
+
+
+        // Regex patterns
+        let namePattern = /^(([A-Z][a-z]*\s)+([A-Z][a-z]*))$/;
+        let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        let passwordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+        let isValid = true;
+
+        //Name
+        nameInput.addEventListener('blur', () => {
+            let nameOutput = nameInput.value.trim();
+            if (nameOutput === "") {
+                nameInput.classList.add('input-error');
+                nameInput.classList.remove('input-success');
+                namPattern.innerHTML = "Name can not be empty!";
+                namPattern.style.color = "red";
+                isValid = false;
+            } else if (!namePattern.test(nameOutput)) {
+                nameInput.classList.add('input-error');
+                nameInput.classList.remove('input-success');
+                namPattern.innerHTML = "Invalid name!";
+                namPattern.style.color = "red";
+                isValid = false;
+
+            } else {
+                nameInput.classList.remove('input-error');
+                nameInput.classList.add('input-success');
+                namPattern.innerHTML = "Confirm name!";
+                namPattern.style.color = "green";
+                isValid = true;
+            }
+        });
+        emailInput.addEventListener('blur', () => {
+            let emailOutput = emailInput.value.trim();
+            let users = JSON.parse(localStorage.getItem('users')) || []; // Lấy danh sách người dùng
+
+            if (emailOutput === "") {
+                emailInput.classList.add('input-error');
+                emailInput.classList.remove('input-success');
+                result_email.innerHTML = "Email không được để trống!";
+                result_email.style.color = 'red';
+                isValid = false;
+
+
+            } else if (!emailPattern.test(emailOutput)) {
+                emailInput.classList.add('input-error');
+                emailInput.classList.remove('input-success');
+                result_email.innerHTML = "Email không hợp lệ!";
+                result_email.style.color = 'red';
+                isValid = false;
+
+            } else if (users.some(user => user.email === emailOutput)) { // Kiểm tra email đã tồn tại
+                emailInput.classList.add('input-error');
+                emailInput.classList.remove('input-success');
+                result_email.innerHTML = "Email đã được sử dụng!";
+                result_email.style.color = 'red';
+                isValid = false;
+            } else {
+                emailInput.classList.remove('input-error');
+                emailInput.classList.add('input-success');
+                result_email.innerHTML = "Confirm email!";
+                result_email.style.color = 'green';
+                isValid = true;
+            }
+        });
+
+
+
+        passwordInput.addEventListener('blur', () => {
+            let passwordOutput = passwordInput.value.trim();
+            if (passwordOutput === "") {
+                passwordInput.classList.add('input-error');
+                passwordInput.classList.remove('input-success');
+                result_password.innerHTML = "Password can not be empty!";
+                result_password.style.color = 'red';
+                isValid = false;
+
+            } else if (!passwordPattern.test(passwordOutput)) {
+                passwordInput.classList.add('input-error');
+                passwordInput.classList.remove('input-success');
+                result_password.innerHTML = "Invalid password !";
+                result_password.style.color = 'red';
+                isValid = false;
+
+            } else {
+                passwordInput.classList.add('input-success');
+                passwordInput.classList.remove('input-error');
+                result_password.innerHTML = "Confirm password !";
+                result_password.style.color = 'green';
+                isValid = true;
+
+            }
+        });
+        //  Đăng ký  
+        let btnSignUp = document.querySelector('#btnSignUp');
+        btnSignUp.addEventListener('click', (event) => {
+            event.preventDefault();
+            let emailOutput = emailInput.value.trim();
+            let users = JSON.parse(localStorage.getItem('users')) || []; // Lấy danh sách người dùng
+            if (users.some(user => user.email === emailOutput)) { // Kiểm tra email đã tồn tại
+                emailInput.classList.add('input-error');
+                emailInput.classList.remove('input-success');
+                result_email.innerHTML = "Email đã được sử dụng!";
+                result_email.style.color = 'red';
+                isValid = false;
+            }
+            if (isValid) {
+                let newUser = {
+                    name: nameInput.value.trim(),
+                    email: emailInput.value.trim(),
+                    password: passwordInput.value.trim()
+                };
+                let users = JSON.parse(localStorage.getItem('users')) || [];
+                users.push(newUser);
+                localStorage.setItem('users', JSON.stringify(users));
+                alert("Sign Up Successful!");
+                window.location.href = "../html/login.html";
+            } else {
+                alert("You need to check your input.");
+            }
+        });
+        //  Đăng nhập  
+
+
+
+
+
+        let sign_In_Button = document.querySelector('.sign-in-button');
+
+        sign_In_Button.addEventListener('click', () => {
+
+            let emailInputSignIn = document.querySelector("#emailInputSignIn").value.trim();
+            let passwordInputSignIn = document.querySelector("#passwordInputSignIn").value.trim();
+
+
+            let users = JSON.parse(localStorage.getItem('users')) || [];
+            let userFound = false;
+
+            let user_name = '';
+            let user_email = '';
+            let user_password = '';
+
+
+
+            for (let user of users) {
+                if (user.email === emailInputSignIn && user.password === passwordInputSignIn) {
+                    userFound = true;
+                    user_name = user.name;
+                    user_email = user.email;
+                    user_password = user.password;
+                    break;
+                }
+            }
+
+
+
+
+            if (userFound) {
+
+
+
+
+                setTimeout(() => {
+
+                    window.location.href = "../html/home.html";
+
+
+                    let userProfile = document.getElementById('userProfile');
+                    let userGreeting = document.getElementById('userGreeting');
+                    let userName = document.getElementById('userName');
+
+                    userProfile.style.display = 'none';
+                    userGreeting.style.display = 'block';
+
+
+                    let fullName = user_name;
+                    let nameParts = fullName.split(" ");
+                    let lastName = nameParts[nameParts.length - 1];
+
+                    userName.innerText = lastName;
+                    localStorage.setItem('currentUser', lastName);
+                    localStorage.setItem('userEmail', user_email);
+                    localStorage.setItem('userPassword', user_password);
+
+                    localStorage.setItem("userProfileVisible", "true");
+
+                }, 500);
+                alert('Congratulations, Sign up successfully!');
+
+            } else {
+                alert("You need Sign Up!");
+                localStorage.setItem("userProfileVisible", "false");
+
+            }
+        });
+      
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

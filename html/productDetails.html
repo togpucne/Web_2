@@ -1,0 +1,1035 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../boostrap/all.min.css">
+    <link rel="stylesheet" href="../boostrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+
+
+    <title>JudoAnde </title>
+    <link rel="shortcut icon" href="../imgs/225186191-ch198176a-c195179-t195170n.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/productDetails.css">
+    <style>
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(10px);
+
+            }
+
+            50% {
+                transform: translateY(-10px);
+
+            }
+        }
+
+        .bounce-icon {
+            display: inline-block;
+            animation: bounce 0.8s infinite;
+            color: red;
+            font-size: 35px;
+        }
+
+        #title_a {
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+    <style>
+        .modal .modal-body .inner-product {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .modal .modal-body .inner-product .inner-img .img-1 {
+            width: 100%;
+
+        }
+
+        .modal .modal-body .inner-product .inner-img {
+            width: 30%;
+
+        }
+
+        .modal .modal-body .inner-product .inner-price {
+            flex: 1;
+            text-align: end;
+
+        }
+
+        .modal .modal-body .inner-product .inner-price .inner-name {
+            font-size: 15px;
+        }
+
+        .inner-infor {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .modal {
+            z-index: 10000;
+        }
+
+        p {
+            color: rgb(248, 96, 96);
+        }
+
+        .inner-success {
+            background-color: rgb(140, 219, 140);
+            border: 1px solid green;
+        }
+
+        .inner-error {
+            background-color: rgb(245, 123, 123);
+            border: 1px solid red;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- </header> -->
+    <header class="inner-header">
+        <nav class="navbar navbar-expand-lg navbar-dark inner-content">
+            <div class="container">
+                <a class="navbar-brand i1" href="../html/home.html">
+                    <img src="../imgs/Remove-bg.ai_1725192433075.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse inner-menu" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../html/home.html" style="color: whitesmoke;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/products.html" style="color: whitesmoke;">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/about.html" style="color: whitesmoke;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contact.html" style="color: whitesmoke;">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/sitemap.html" style="color: whitesmoke;">Sitemap</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-block">
+                        <form class="form-inline my-2 my-lg-0 inner-search">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search..."
+                                aria-label="Search" style="border: none; background-color: #F0F0F0;">
+                            <button type="submit" class="btn my-2 my-sm-0">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item" id="userProfile">
+                            <a class="nav-link" href="./login.html" style="color: whitesmoke;">
+                                <i class="fa-solid fa-user-plus"></i>
+                            </a>
+                        </li>
+
+                        <li class="nav-item" id="userGreeting" style="display: none;">
+                            <a class="nav-link" href="./infoPersonal.html" style="color: whitesmoke;">
+
+                                <span id="userName"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shopping.html" style="color: whitesmoke;">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span id="cartCount"
+                                    style="color: black; font-weight: bold; position: absolute; top: 0px;right: -3px; font-size: 14px;"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- end footer -->
+    <!-- icon -->
+    <div class="inner-call" style="position: relative;">
+        <a href="#"><i class="fa-solid fa-phone-volume"></i></a>
+    </div>
+
+    <!-- icon -->
+    <!-- product details -->
+
+    <div class="product-details">
+        <div class="container">
+            <div class="inner-wrap">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="inner-product">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="../imgs/productDetails/canon-2000d-1.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../imgs/productDetails/canon-2000d-2.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../imgs/productDetails/canon-2000d-3.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="../imgs/productDetails/canon-2000d-4.jpg"
+                                                    class="d-block w-100" alt="...">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                            data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                            data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+
+                                    <!-- Thumbnails -->
+                                    <div class="thumbnails text-center">
+                                        <img src="../imgs/productDetails/canon-2000d-1.jpg" class="thumbnail-img"
+                                            data-target="0" alt="...">
+                                        <img src="../imgs/productDetails/canon-2000d-2.jpg" class="thumbnail-img"
+                                            data-target="1" alt="...">
+                                        <img src="../imgs/productDetails/canon-2000d-3.jpg" class="thumbnail-img"
+                                            data-target="2" alt="...">
+                                        <img src="../imgs/productDetails/canon-2000d-4.jpg" class="thumbnail-img"
+                                            data-target="3" alt="...">
+                                    </div>
+
+                                    <div class="inner-a1">
+                                        <font style="font-weight: bold;" class="inner-title" id="offer-title">Ưu đãi
+                                            thêm khi mua hàng tại JudoAnde:</font>
+                                        <div id="offer-description">
+                                            <ul class="discount" id="offer-list">
+                                                <li>Tặng khoá học nhiếp ảnh cơ bản tại Canon</li>
+                                                <li>Miễn phí dán màn hình máy ảnh trọn đời máy</li>
+                                                <li>Miễn phí vệ sinh ngoài máy ảnh & Lens.</li>
+                                                <li>Miễn phí lau Sensor bằng thiết bị chuyên nghiệp.</li>
+                                                <li>Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens.</li>
+                                                <li>Hướng dẫn chụp ảnh cho người mới bắt đầu bạn sẽ làm chủ được chiếc
+                                                    máy ảnh ngay sau khi mua máy.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="inner-desc">
+                                        <div class="row">
+                                            <div class="col-7">
+                                                <div class="inner-left">
+                                                    <div class="inner-top">
+                                                        <div class="inner-title">
+                                                            <span class="inner-title">Canon 2000D, New 98% - Camera
+                                                                5.000 Shot</span>
+                                                        </div>
+                                                        <div class="inner-a">
+                                                            <div class="inner-star">
+                                                                <i class="fa-solid fa-star"></i><i
+                                                                    class="fa-solid fa-star"></i><i
+                                                                    class="fa-solid fa-star"></i><i
+                                                                    class="fa-solid fa-star"></i>
+                                                            </div>
+                                                            <div class="inner-brand">Brand: Canon</div>
+                                                        </div>
+                                                        <div class="inner-status">Availability:&emsp; &emsp; In Stock
+                                                        </div>
+                                                        <div class="inner-price" data-price="6900000">Price: &emsp;
+                                                            6.900.000 VND</div>
+
+                                                        <div class="inner-input">
+                                                            <form action="">
+                                                                <label for="quantity">Quantity: </label>
+                                                                <input type="number" id="quantity" min="0"
+                                                                    placeholder="1">
+                                                                <span class="result_quantity">(*)</span>
+                                                            </form>
+                                                        </div>
+                                                        <div class="inner-input">
+                                                            <form action="">
+                                                                <label for="total">Total: </label>
+                                                                <input type="text" id="total" disabled>
+                                                            </form>
+                                                        </div>
+                                                        <div class="inner-input">
+                                                            <button class="btn bought btn-warning" data-toggle="modal"
+                                                                data-target="#modelId">Bought</button>
+                                                            <button class="btn add">Add to Cart</button>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="inner-bottom">
+                                                        <div class="inner-top">
+                                                            <div class="inner-information">
+                                                                <div class="inner-c">
+                                                                    <font style="font-weight: bold;">Tóm tắt sản phẩm:
+                                                                    </font>
+                                                                    <ol class="tomTat">
+                                                                        <li>Cảm biến: CMOS 24.1 Megapixels</li>
+                                                                        <li>Bộ xử lý hình ảnh: DIGIC 4+</li>
+                                                                        <li>Hệ thống đo nét tiên tiến với 9 điểm</li>
+                                                                        <li>Màn hình: LCD 3.0inch</li>
+                                                                        <li>Tốc độ màn trập: 30 1/4000 giây</li>
+                                                                        <li>Tốc độ chụp: 3.0 ảnh/ giây</li>
+                                                                        <li>Độ nhạy sáng: ISO 100-6400 (mở rộng 12800)
+                                                                        </li>
+                                                                        <li>Quay phim: Full HD 1920×1080</li>
+                                                                        <li>Tích hợp: Wifi/ NFC</li>
+                                                                        <li>Pin tương thích: LP-E10</li>
+                                                                        <li>Kích thước: 129 * 101 * 77.6 mm</li>
+                                                                        <li>Trọng lượng: 475 Gram</li>
+                                                                    </ol>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div class="inner-right">
+                                                    <span style="color: red;">Hỗ trợ kỹ thuật: 0933.44.0262 <br>
+                                                        Hỗ trợ bán hàng: <font style="font-style: italic;">(028)
+                                                            66.853.262</font></span>
+                                                    <div class="inner-support">
+                                                        <span style="color: rgb(10, 164, 225);">Chính sách hỗ trợ sau
+                                                            bán hàng</span><br>
+                                                        <div class="inner-menu">
+                                                            <ul>
+                                                                <li>Đổi trả 07 ngày đầu nếu lỗi kỹ thuật.</li>
+                                                                <li>Miễn phí vệ sinh máy, khử nấm mốc, lau sensor, bảo
+                                                                    trì máy sau mua hàng</li>
+                                                                <li>Miễn phí dán màn hình trọn đời máy</li>
+                                                                <li>Hỗ trợ miễn phí cân chỉnh Focus các dòng Lens Sigma
+                                                                    Art</li>
+                                                                <li>Hỗ trợ thu mua lại Máy ảnh & Lens khi muốn nâng cấp
+                                                                    hoặc bán lại với giá tốt nhất</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="inner-input-11">
+                                                        <font style="font-weight: bold;">Bảo hành:</font>
+                                                        <span>06 tháng (Bao test đổi trả trong 07 ngày đầu)</span><br>
+                                                        <font style="font-weight: bold;">Phụ kiện đi kèm:</font>
+                                                        <span>Thân máy, Pin, Sạc</span><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- end product details -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">THÔNG TIN ĐẶT HÀNG</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="inner-product">
+                            <div class="inner-img">
+                                <div class="inner-img-1">
+
+                                    <img src="../imgs/productDetails/canon-2000d-1.jpg" alt="" class="img-1">
+
+                                </div>
+                            </div>
+                            <div class="inner-price">
+                                <div class="inner-name">
+                                    <span class="inner-name">Canon 2000D, New 98% - Camera 5.000 Shot</span>
+                                </div>
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+                        <div class="inner-infor" style="border-bottom: 1px solid darkgrey;">
+                            <div class="inner-lable">
+                                <div class="inner-quantity">
+                                    <span class="quantity">Price: </span>
+                                </div>
+                                <div class="inner-quantity">
+                                    <span class="quantity">Quantity: </span>
+                                </div>
+                                <div class="inner-total">
+                                    <span class="total">Total: </span>
+                                </div>
+                            </div>
+                            <div class="inner-number">
+                                <div class="price-price">
+                                    <span class="price">300000</span>
+                                </div>
+                                <div class="price-quantity">
+                                    <span class="price">2 </span>
+                                </div>
+                                <div class="price-total">
+                                    <span class="total">600000 </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="inner-form" style="border-bottom: 1px solid darkgrey;">
+                            <form action="" class="form-group">
+                                <div class="inner-title">
+                                    <span>THÔNG TIN KHÁCH HÀNG</span>
+                                </div>
+                                <div class="row mb-1">
+                                    <label for="name" class="col-3">Họ tên: </label>
+                                    <div class="inner-input col-9">
+                                        <input type="text" class="form-control" id="name">
+                                        <p class="result_name">(*)</p>
+                                    </div>
+                                </div>
+                                <div class="row mb-1" style="border-bottom: 1px solid darkgray;">
+                                    <label for="phone" class="col-3">Phone: </label>
+                                    <div class="inner-input col-9">
+                                        <input type="text" class="form-control" id="phone">
+                                        <p class="result_phone">(*)</p>
+
+                                    </div>
+                                </div>
+                                <div class="inner-transform mb-2">
+                                    <span>CÁCH THỨC NHẬN HÀNG </span>
+                                </div>
+                                <div class="row mb-1">
+                                    <label for="pay" class="col-4">Thanh toán:</label>
+                                    <div class="inner-input col-8">
+                                        <input type="radio" name="pay" value="Chuyển khoản" id="chuyenKhoan">
+                                        <label for="chuyenKhoan">Chuyển khoản</label> <br>
+                                        <input type="radio" name="pay" value="Tiền mặt" id="tienMat">
+                                        <label for="tienMat">Tiền mặt </label>
+                                        <p class="result_pay">(*)</p>
+                                    </div>
+
+                                </div>
+                                <div class="row mb-1">
+                                    <label for="transfor" class="col-4">Vận chuyển:</label>
+                                    <div class="inner-input col-8">
+                                        <input type="radio" name="transfor" value="Chuyển phát nhanh"
+                                            id="chuyenPhatNhanh">
+                                        <label for="chuyenPhatNhanh">Chuyển phát nhanh</label> <br>
+                                        <input type="radio" name="transfor" value="Thông thường" id="thongThuong">
+                                        <label for="thongThuong">Thông thường</label>
+                                        <p class="result_transfor">(*)</p>
+                                    </div>
+
+                                </div>
+                                <div class="row ">
+                                    <div class="inner-input col-1">
+                                        <input type="checkbox" id="dieuKhoan">
+                                    </div>
+                                    <label for="dieuKhoan"> Gọi người khách nhận hàng (nếu có)</label>
+
+                                </div>
+                                <div class="row ">
+                                    <div class="inner-input col-1">
+                                        <input type="checkbox" id="tutorial">
+                                    </div>
+                                    <label for="tutorial">Hướng dẫn sử dụng, giải đáp thắc mắc</label>
+
+                                </div>
+                                <div class="row ">
+                                    <div class="inner-input col-1">
+                                        <input type="checkbox" id="hoaDon">
+                                    </div>
+                                    <label for="hoaDon"> Xuất hóa đơn công ty</label>
+
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="inner-chinhSach">
+                            <div class="row">
+                                <div class="inner-input">
+                                    <input type="checkbox" id="chinhSach">
+                                    <label for="chinhSach" style="display: inline;">
+                                        Tôi đồng ý với <font style="color: skyblue; cursor: pointer;">Chính sách xử lý
+                                            dữ liệu cá nhân</font> của JudoAnde
+                                    </label>
+                                    <p class="result_chinhSach" style="color: rgb(233, 88, 88);">(*)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" id="btnSubmit" data-dismiss="modal">Bought</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="inner-footer fixed-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="inner-box1">
+                        <img src="../imgs/Remove-bg.ai_1725192433075.png" alt="" class="img-footer">
+                        <span class="inner-desc">
+                            Được quản lý bởi công ty JUDOANDE
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="inner-box2">
+                        <h2>Contact Information:</h2>
+                        <span>
+                            <i class="fa-solid fa-location-crosshairs"></i> Nguyen Van Bao, P5, Q.GV, HCM.
+                        </span> <br>
+                        <span>
+                            <i class="fa-solid fa-phone-volume"></i> 0933.44.0262
+                        </span> <br>
+                        <span>
+                            <i class="fa-solid fa-envelope"></i> Email: judoande@gmail.com
+                        </span>
+                        </h2>
+                    </div>
+
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="inner-box3">
+                        <div class="inner-title">
+                            <h2>Pay:</h2>
+                        </div>
+                        <div class="inner-pay">
+                            <a href="#"><img src="../imgs/pay/pay_1.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_7.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_6.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_5.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_4.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_3.webp" alt=""></a>
+                            <a href="#"><img src="../imgs/pay/pay_2.webp" alt=""></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="inner-main">
+                        <div class="inner-box">
+                            <a href="#"> <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-tiktok"></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+    <script src="../js/updateQuantity.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+
+            // Hàm định dạng số với dấu chấm
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            }
+
+            const innerPriceElement = document.querySelector('.inner-price');
+            let productPrice = parseInt(innerPriceElement.getAttribute('data-price')) || 0;
+
+            const quantityInput = document.getElementById('quantity');
+            const totalInput = document.getElementById('total');
+            let result_quantity = document.querySelector(".result_quantity");
+
+            // Hàm cập nhật modal với thông tin sản phẩm
+            function updateModal(product) {
+                document.querySelector('.modal .inner-name').innerText = product.name;
+                document.querySelector('.modal .inner-img img').src = product.images[0];
+                document.querySelector('.modal .inner-discount').innerText = formatNumber(product.price);
+
+                const quantity = parseInt(quantityInput.value) || 0;
+                document.querySelector('.modal .price-quantity .price').innerText = quantity;
+                document.querySelector('.modal .price-price .price').innerText = formatNumber(product.price);
+                document.querySelector('.modal .price-total .total').innerText = formatNumber(quantity * product.price);
+            }
+
+            // Xử lý thay đổi số lượng
+            quantityInput.addEventListener('input', function () {
+                const quantity = parseInt(quantityInput.value) || 0;
+                if (quantity > 0) {
+                    const total = quantity * productPrice;
+                    totalInput.value = formatNumber(total);
+                    result_quantity.innerHTML = '(*)';
+                    result_quantity.style.color = "green";
+                } else {
+                    totalInput.value = '';
+                    result_quantity.innerHTML = '* Quantity > 0';
+                    result_quantity.style.color = "red";
+                }
+
+                updateModal({
+                    name: document.querySelector('.inner-title span').innerText,
+                    price: productPrice,
+                    images: [document.querySelector('.carousel-item.active img').src]
+                });
+            });
+
+            // Hàm xử lý thumbnail click
+            function setupThumbnailClick() {
+                const thumbnails = document.querySelectorAll('.thumbnail-img');
+                const carouselItems = document.querySelectorAll('.carousel-item');
+
+                thumbnails.forEach((thumbnail, index) => {
+                    thumbnail.addEventListener('click', () => {
+                        carouselItems.forEach(item => item.classList.remove('active'));
+                        carouselItems[index].classList.add('active');
+
+                        thumbnails.forEach(img => img.classList.remove('active-thumbnail'));
+                        thumbnail.classList.add('active-thumbnail');
+
+                        const newPrice = parseInt(thumbnail.getAttribute('data-price'));
+                        productPrice = newPrice;
+                        innerPriceElement.innerText = `Price: ${formatNumber(productPrice)}`;
+
+                        const quantity = parseInt(quantityInput.value) || 0;
+                        if (quantity > 0) {
+                            const total = quantity * productPrice;
+                            totalInput.value = formatNumber(total);
+                        }
+
+                        updateModal({
+                            name: document.querySelector('.inner-title span').innerText,
+                            price: productPrice,
+                            images: [thumbnail.src]
+                        });
+                    });
+                });
+            }
+            // Lấy dữ liệu từ file json 
+            async function loadProductDetails() {
+                try {
+                    const response = await fetch('../js/product.json');
+                    const products = await response.json();
+
+                    const params = new URLSearchParams(window.location.search);
+                    const productId = params.get('id');
+
+                    const product = products.find(p => p.id == productId);
+
+                    if (product) {
+                        document.querySelector('.inner-title span').innerText = product.name;
+                        innerPriceElement.innerText = `Price: ${formatNumber(product.price)}`;
+                        innerPriceElement.setAttribute('data-price', product.price);
+                        productPrice = product.price;
+                        document.querySelector('.tomTat').innerHTML = product.summary.map(item => `<li>${item}</li>`).join('');
+
+                        const carouselInner = document.querySelector('.carousel-inner');
+                        const thumbnailContainer = document.querySelector('.thumbnails');
+                        carouselInner.innerHTML = '';
+                        thumbnailContainer.innerHTML = '';
+
+                        product.images.forEach((image, index) => {
+                            const activeClass = index === 0 ? 'active' : '';
+                            carouselInner.innerHTML += `
+                            <div class="carousel-item ${activeClass}">
+                                <img src="${image}" class="d-block w-100" alt="...">
+                            </div>
+                            `;
+                            thumbnailContainer.innerHTML += `
+                            <img src="${image}" class="thumbnail-img ${index === 0 ? 'active-thumbnail' : ''}" data-target="${index}" data-price="${product.price}" alt="...">
+                            `;
+                        });
+
+                        const offerList = document.getElementById('offer-list');
+                        offerList.innerHTML = product.description.map(desc => `<li>${desc}</li>`).join('');
+
+                        const warranty = document.querySelector('.inner-input-11 span:nth-of-type(1)');
+                        warranty.textContent = product.warranty;
+
+                        const accessories = document.querySelector('.inner-input-11 span:nth-of-type(2)');
+                        accessories.textContent = product.accessories;
+
+                        setupThumbnailClick();
+
+
+                    }
+                } catch (error) {
+                    console.error("Failed to load product details:", error);
+                }
+            }
+
+
+
+
+            loadProductDetails();
+            // Định dạng số thành dạng có dấu phân cách hàng nghìn
+            function formatNumber(number) {
+                return new Intl.NumberFormat('vi-VN').format(number);
+            }
+
+            // Hàm mở modal và cập nhật giá trị
+            function openModal() {
+                const price = parseInt(document.querySelector('.inner-price').getAttribute('data-price')) || 0;
+                const quantity = parseInt(document.getElementById('quantity').value) || 0;
+                const total = price * quantity;
+
+                // Cập nhật thông tin vào modal
+                document.querySelector('#modelId .price-price .price').innerText = formatNumber(price) + " VND";
+                document.querySelector('#modelId .price-quantity .price').innerText = quantity;
+                document.querySelector('#modelId .price-total .total').innerText = formatNumber(total) + " VND";
+
+                // Mở modal
+                $('#modelId').modal('show');
+            }
+
+            // Thêm sự kiện click cho nút "Bought"
+            document.querySelector('.btn.bought').addEventListener('click', openModal);
+
+
+            let isValid = true;
+
+            // name
+            let name = document.querySelector("#name");
+            name.addEventListener("blur", () => {
+                const namePattern = /^(([A-Z][a-z]*\s)+([A-Z][a-z]*))$/;
+                let nameInput = name.value.trim();
+                let result_name = document.querySelector(".result_name");
+                if (nameInput === "") {
+                    result_name.innerHTML = "Không được bỏ trống !";
+                    result_name.style.color = "red";
+                    name.classList.add("inner-error");
+                    name.classList.remove("inner-success");
+                    isValid = false;
+                } else if (!namePattern.test(nameInput)) {
+                    result_name.innerHTML = "Phải từ 2 chữ số, mỗi chữ từ 2 từ đảo lên, không có khoảng trắng thừa !";
+                    result_name.style.color = "red";
+                    name.classList.add("inner-error");
+                    name.classList.remove("inner-success");
+                    isValid = false;
+                } else {
+                    result_name.innerHTML = "Confirm name!";
+                    result_name.style.color = "green";
+                    name.classList.remove("inner-error");
+                    name.classList.add("inner-success");
+                    isValid = true;
+                }
+            });
+
+            // phone 
+            let phone = document.querySelector("#phone");
+            phone.addEventListener("blur", () => {
+                const phonePattern = /^0\d{9}$/; // Số điện thoại bắt đầu bằng 0 và có 10 chữ số
+                let phoneInput = phone.value.trim();
+                let result_phone = document.querySelector(".result_phone");
+
+                if (phoneInput === "") {
+                    result_phone.innerHTML = "Không được bỏ trống!";
+                    result_phone.style.color = "red";
+                    phone.classList.add("inner-error");
+                    phone.classList.remove("inner-success");
+                    isValid = false;
+                } else if (!phonePattern.test(phoneInput)) {
+                    result_phone.innerHTML = "Số điện thoại không hợp lệ! Phải bắt đầu bằng 0 và có 10 chữ số.";
+                    result_phone.style.color = "red";
+                    phone.classList.add("inner-error");
+                    phone.classList.remove("inner-success");
+                    isValid = false;
+                } else {
+                    result_phone.innerHTML = "Confirm phone number!";
+                    result_phone.style.color = "green";
+                    phone.classList.remove("inner-error");
+                    phone.classList.add("inner-success");
+                    isValid = true;
+                }
+            });
+            // Pay 
+            const payChecked = document.querySelector("input[name='pay']:checked");
+            if (!payChecked) {
+                isValid = false;
+            } else {
+                isValid = true;
+            }
+
+            // Transfor
+            const transforChecked = document.querySelector("input[name='transfor']:checked");
+            if (!transforChecked) {
+                isValid = false;
+            } else {
+                isValid = true;
+            }
+            // Bought 
+            function validateForm() {
+                isValid = true;
+
+                // Kiểm tra Họ tên
+                const namePattern = /^(([A-Z][a-z]*\s)+([A-Z][a-z]*))$/;
+                let nameInput = name.value.trim();
+                let result_name = document.querySelector(".result_name");
+                if (nameInput === "" || !namePattern.test(nameInput)) {
+                    isValid = false;
+                }
+
+                // Kiểm tra Số điện thoại
+                const phonePattern = /^0\d{9}$/;
+                let phoneInput = phone.value.trim();
+                if (phoneInput === "" || !phonePattern.test(phoneInput)) {
+                    isValid = false;
+                }
+
+                // Kiểm tra thanh toán
+                const payChecked = document.querySelector("input[name='pay']:checked");
+                if (!payChecked) {
+                    isValid = false;
+                }
+
+                // Kiểm tra vận chuyển
+                const transforChecked = document.querySelector("input[name='transfor']:checked");
+                if (!transforChecked) {
+                    isValid = false;
+                }
+                // Kiểm tra chính sách xử lý dữ liệu cá nhân
+                const chinhSachChecked = document.getElementById("chinhSach").checked;
+                let result_chinhSach = document.querySelector(".result_chinhSach");
+                if (!chinhSachChecked) {
+                    isValid = false;
+                }
+
+
+                return isValid;
+
+            }
+
+            let btnSubmit = document.querySelector("#btnSubmit");
+            btnSubmit.addEventListener("click", () => {
+
+                alert("Mua thành công");
+
+                function clearValidationClasses() {
+                    const inputs = document.querySelectorAll("#name, #phone, #quantity");
+                    inputs.forEach(input => {
+                        input.classList.remove("inner-error");
+                        input.classList.remove("inner-success");
+                    });
+                }
+                window.location.href = "shopping.html";
+
+
+                if (validateForm()) {
+                    // Lấy thông tin sản phẩm và người dùng
+                    const nameInput = document.querySelector("#name").value;
+                    const phoneInput = document.querySelector("#phone").value;
+                    const quantityInput = document.querySelector("#quantity").value;
+                    const productName1 = document.querySelector('.inner-title span').innerText;
+                    const productPrice1 = parseInt(innerPriceElement.getAttribute('data-price')) || 0;
+                    const totalPrice = quantityInput * productPrice1;
+
+                    // Tạo đối tượng chứa thông tin đơn hàng
+                    const orderData = {
+                        name: nameInput,
+                        phone: phoneInput,
+                        payment: document.querySelector("input[name='pay']:checked")?.value || "Không có",
+                        shipping: document.querySelector("input[name='transfor']:checked")?.value || "Không có",
+                        product: productName1,
+                        quantity: quantityInput,
+                        price: formatNumber(productPrice1),
+                        total: formatNumber(totalPrice)
+                    };
+
+                    // Lưu vào Local Storage
+                    let orders = JSON.parse(localStorage.getItem('orders')) || [];
+                    orders.push(orderData);
+                    localStorage.setItem('orders', JSON.stringify(orders));
+
+                    resetModalState();
+
+                } else {
+                    alert("Lỗi: vui lòng điền đầy đủ thông tin");
+                    resetModalState();
+                }
+            });
+            // Add to Cart
+            const addToCartButton = document.querySelector(".add");
+
+            addToCartButton.addEventListener("click", () => {
+                const nameInput = document.querySelector("#name").value;
+                const phoneInput = document.querySelector("#phone").value;
+                const quantityInput = document.querySelector("#quantity").value || 1;
+                const productName = document.querySelector('.inner-title span').innerText;
+                const innerPriceElement = document.querySelector('.inner-price');
+                const productPrice = parseInt(innerPriceElement.getAttribute('data-price')) || 0;
+                const totalPrice = quantityInput * productPrice;
+
+                const productData = {
+                    name: nameInput,
+                    phone: phoneInput,
+                    product: productName,
+                    quantity: quantityInput,
+                    price: formatNumber(productPrice),
+                    total: formatNumber(totalPrice)
+                };
+
+                // Lưu vào Local Storage
+                let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+                cartItems.push(productData);
+                localStorage.setItem('cartItems', JSON.stringify(cartItems));
+
+                alert("Sản phẩm đã được thêm vào giỏ hàng!");
+                window.location.href = "shoppingCart.html";
+            });
+
+
+            // Hàm reset trạng thái modal
+            function resetModalState() {
+                document.querySelector("#name").value = ""; // Reset trường họ tên
+                document.querySelector("#phone").value = ""; // Reset trường số điện thoại
+                document.querySelector("#quantity").value = "1"; // Đặt lại số lượng mặc định
+                document.querySelector("#total").value = ""; // Reset tổng giá
+
+                // Xóa lớp thành công và lỗi
+                const nameField = document.querySelector("#name");
+                const phoneField = document.querySelector("#phone");
+                nameField.classList.remove("inner-success", "inner-error");
+                phoneField.classList.remove("inner-success", "inner-error");
+
+                // Xóa thông báo kết quả
+                document.querySelector(".result_name").innerHTML = "";
+                document.querySelector(".result_phone").innerHTML = "";
+                document.querySelector(".result_quantity").innerHTML = "";
+                document.querySelector(".result_chinhSach").innerHTML = "";
+
+                // Đặt lại trạng thái cho các checkbox và radio button
+                const checkboxes = document.querySelectorAll("input[type='checkbox']");
+                checkboxes.forEach(checkbox => checkbox.checked = false);
+
+                const radioButtons = document.querySelectorAll("input[type='radio']");
+                radioButtons.forEach(radio => radio.checked = false);
+
+                clearValidationClasses();
+            }
+
+
+
+
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="../boostrap/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="../boostrap/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <!-- product -->
+    <!-- jQuery -->
+    <script src="../js/jquery-2.1.0.min.js"></script>
+    <!-- Plugins -->
+    <script src="../js/owl-carousel.js"></script>
+    <!-- Global Init -->
+    <script src="../js/custom.js"></script>
+
+    <!-- nav.js -->
+    <script src="../js/nav.js"></script>
+    <!-- slick nav  -->
+    <script src="../js/slick_nav.js"></script>
+
+    <!-- slick Sign Out -->
+    <script src="../js/slick_Sign_Out.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,895 @@
+[
+    {
+        "id": 3,
+        "name": "Canon EOS M50 + 15-45mm (Màu trắng), Mới 98%",
+        "images": [
+            "../imgs/productDetails/product1/eos-m50-white.jpg",
+            "../imgs/productDetails/product1/m50-body-trang-2.jpg",
+            "../imgs/productDetails/product1/m50-body-trang-3.jpg",
+            "../imgs/productDetails/product1/m50-body-trang-4.jpg"
+        ],
+        "price": 12990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí dán màn hình trọn đời máy",
+            "Miễn phí khử nấm mốc bằng UV Pro",
+            "Miễn phí vệ sinh ngoài máy ảnh và lens định kỳ"
+        ],
+        "summary": [
+            "Độ phân giải 24,1 MP, bộ cảm biến CMOS APS-C",
+            "Dual pixel CMOS AF",
+            "Bộ xử lý hình ảnh DIGIC 8",
+            "Video 4K và Quay phim HD 720p120",
+            "ISO: 100-25600 (mở rộng ISO: 51200)",
+            "Chụp Liên tục: Lên đến 10 khung hình/giây (ở servo AF: lên đến 7,4 khung hình/giây)",
+            "Màn hình: EVF: 2,36 điểm ảnh",
+            "Wi-Fi · Bluetooth · Đã cài đặt NFC",
+            "Kết hợp hệ thống chống rung 5 trục",
+            "Ống kính STM EF-M 15-45mm f / 3.5-6.3 IS"
+        ],
+        "warranty": "06 tháng (Bao test đổi trả trong 07 ngày đầu)",
+        "accessories": "Thân máy, Lens 15-45, Pin, Sạc, Dây đeo"
+    },
+    {
+        "id": 2,
+        "name": "Canon EOS R50 + RF 50mm F1.8 STM, Mới 100% (Chính hãng Canon)",
+        "images": [
+            "../imgs/productDetails/2/may-anh-canon-r50-rf50stm.jpg",
+            "../imgs/productDetails/2/canon-r50-2.jpg",
+            "../imgs/productDetails/2/canon-r50-3.jpg",
+            "../imgs/productDetails/2/canon-r50.jpg"
+        ],
+        "price": 21980000,
+
+        "brand": " Canon",
+        "availability": "In Stock",
+        "description": [
+            " Tặng thẻ nhớ 32gb chính hãng",
+            "Tặng túi máy ảnh",
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu, bạn sẽ làm chủ được chiếc máy ảnh ngay sau khi mua máy"
+        ],
+        "summary": [
+            "Định dạng : Canon RF APS-C",
+            "Cảm biến CMOS 24.2MP, vi xử lý DIGIC X",
+            "Chip Dual Pixel CMOS AF II với 651 điểm",
+            "Video : UHD 4K (3840 * 2160) ; 1920 * 1080 ",
+            "Chế độ quay phim dọc",
+            "Hệ số Crop : 1.6x",
+            "Giới hạn Video : 30 phút",
+            "Chụp liên tục : 15 khung hình/giây",
+            "Chống rung kỹ thuật số 5 trục (Chỉ Video)",
+            "Tốc độ màn trập : 1/4000 - 30 giây",
+            "ISO : 100 - 32.000 (Mở rộng : 50 - 51.200)"
+        ],
+        "warranty": "24 tháng chính hãng Canon Việt Nam",
+        "accessories": "Thân máy, Lens RF50F1.8STM, Pin, Sạc, Dây đeo, Hộp, Sách"
+    },
+    {
+        "id": 1,
+        "name": "Canon EOS R50, Mới 100% (Chính hãng Canon)",
+        "images": [
+            "../imgs/productDetails/1/body-canon-r50-1.jpg",
+            "../imgs/productDetails/1/canon-r50-5.jpg",
+            "../imgs/productDetails/1/canon-r50-6.jpg",
+            "../imgs/productDetails/1/canon-r50-8.jpg"
+        ],
+        "price": 15990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Tặng thẻ nhớ 32gb 100mb/s",
+"Tặng túi Mini",
+"Miễn phí dán màn hình máy ảnh",
+"Miễn phí vệ sinh ngoài máy ảnh & Lens ",
+"Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+"Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+"Hướng dẫn chụp ảnh cho người mới bắt đầu"
+        ],
+        "summary": [
+            "Định dạng : Canon RF APS-C",
+            "Cảm biến CMOS 24.2MP, vi xử lý DIGIC X",
+            "Chip Dual Pixel CMOS AF II với 651 điểm",
+            "Video : UHD 4K (3840 * 2160) ; 1920 * 1080 ",
+            "Quay phim Full HD 1080p",
+            "Kết nối Wi-Fi và Bluetooth",
+            "Ống kính AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR"
+        ],
+        "warranty": "24 tháng chính hãng Lê Bảo Minh",
+        "accessories": "Thân máy, Pin, Sạc, Dây đeo, Hộp, Sách"
+    },
+    {
+        "id": 1,
+        "name": "Canon EOS R50, Mới 100% (Chính hãng Canon)",
+        "images": [
+            "../imgs/productDetails/1/body-canon-r50-1.jpg",
+            "../imgs/productDetails/1/canon-r50-5.jpg",
+            "../imgs/productDetails/1/canon-r50-6.jpg",
+            "../imgs/productDetails/1/canon-r50-8.jpg"
+        ],
+        "price": 15990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Tặng thẻ nhớ 32gb 100mb/s",
+"Tặng túi Mini",
+"Miễn phí dán màn hình máy ảnh",
+"Miễn phí vệ sinh ngoài máy ảnh & Lens ",
+"Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+"Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+"Hướng dẫn chụp ảnh cho người mới bắt đầu"
+        ],
+        "summary": [
+            "Định dạng : Canon RF APS-C",
+            "Cảm biến CMOS 24.2MP, vi xử lý DIGIC X",
+            "Chip Dual Pixel CMOS AF II với 651 điểm",
+            "Video : UHD 4K (3840 * 2160) ; 1920 * 1080 ",
+            "Quay phim Full HD 1080p",
+            "Kết nối Wi-Fi và Bluetooth",
+            "Ống kính AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR"
+        ],
+        "warranty": "24 tháng chính hãng Lê Bảo Minh",
+        "accessories": "Thân máy, Pin, Sạc, Dây đeo, Hộp, Sách"
+    },{
+        "id": 4,
+        "name": "Canon EOS R50 Kit 18-45mm, Mới 100% - Màu trắng (Chính hãng Canon)",
+        "images": [
+            "../imgs/productDetails/4/canon-eos-r50-kit-trang.jpeg",
+            "../imgs/productDetails/4/eos-r50-white.jpeg",
+            "../imgs/productDetails/4/may-anh-canon-r50-mau-trang.jpeg",
+            "../imgs/productDetails/4/phu-kien-canon-r50-trang.jpeg"
+        ],
+        "price": 17490000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Tặng thẻ nhớ SD 32gb",
+            "Tặng túi máy ảnh Mini",
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh"
+        ],
+        "summary": [
+            "Chụp liên tục: 15 khung hình/giây",
+            "Chống rung kỹ thuật số 5 trục (Chỉ Video)",
+            "Tốc độ màn trập: 1/4000 - 30 giây",
+            "ISO: 100 - 32.000 (Mở rộng: 50 - 51.200)",
+            "Điểm lấy nét tự động: Photo 4503, Video 3713",
+            "Màn hình LCD xoay lật cảm ứng 3 inch, 1,062,000 Dot",
+            "Kính ngắm EVF OLED 2,360,000 Dot bao phủ 100% khung ngắm",
+            "01 khe thẻ nhớ SD",
+            "Jack kết nối: Micro-HDMI, jack Audio 3.5mm, Type-C",
+            "Tích hợp Wireless, Bluetooth",
+            "Pin sạc Lithium-Polymer 7.2 VDC, 1040 mAh",
+            "Kích thước: 116.3 * 85.5 * 68.8 mm",
+            "Trọng lượng: 328 Gram"
+        ],
+        "warranty": "24 tháng chính hãng Canon Việt Nam",
+        "accessories": "Thân máy, Lens 18-45STM, Pin, Sạc, Dây đeo, Hộp, Sách"
+    },
+    {
+        "id": 5,
+        "name": "Sony Alpha Full-Frame, Mới 100% (Chính hãng Sony VN)",
+        "images": [
+            "../imgs/productDetails/5/may-anh-sony-a7-mark-iii.jpg",
+            "../imgs/productDetails/5/may-sony-a7-mark-iii.jpg",
+            "../imgs/productDetails/5/sony-alpha-7-m3.jpg",
+            "../imgs/productDetails/5/than-may-a7-mark-iii.jpg"
+        ],
+        "price": 37490000,
+        "brand": "Sony",
+        "availability": "In Stock",
+        "description": [
+            "Gọi trực tiếp 0933.44.0262 để nhận Giá Tốt hơn nữa",
+            "Miễn phí chuyển đổi trả góp 0% bằng thẻ tín dụng (Từ 15/10/2024 đến 29/12/2024)",
+            "Tặng thêm 06 tháng bảo hành khi quý khách đăng ký sản phẩm vào tài khoản My Sony từ 01/07/2024 đến ngày 31/03/2025",
+            "Tặng thẻ nhớ Sony SD 64gb 270mb",
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu"
+        ],
+        "summary": [
+            "Bộ cảm biến CMOS Full-Frame 24MP Exmor R BSI",
+            "Bộ xử lý hình ảnh BIONZ X & LSI",
+            "Hệ thống AF 693 điểm & Chụp 10 khung hình / giây",
+            "Video UHD 4K30p với HLG & S-Log3 Gammas",
+            "Màn hình cảm ứng LCD 3.0 inch 922k-Dot",
+            "Chống rung ổn định hình ảnh 5-Axis SteadyShot",
+            "ISO 204800, tích hợp Wi-Fi và NFC, khe SD đôi"
+        ],
+        "warranty": "24 tháng chính hãng Sony VN",
+        "accessories": "Thân máy, pin, Sạc, dây đeo, hộp, sách, dĩa"
+    },
+    {
+        "id": 6,
+        "name": "Sony A6700 + 18-135mm OSS, Mới 100% (Chính Hãng)",
+        "images": [
+            "../imgs/productDetails/6/may-anh-sony-a6700-18-135.jpeg",
+            "../imgs/productDetails/6/sony-a6700-1.jpg",
+            "../imgs/productDetails/6/sony-a6700-5.jpg",
+            "../imgs/productDetails/6/sony-a6700-6.jpg"
+        ],
+        "price": 44990000,
+        "brand": "Sony",
+        "availability": "In Stock",
+        "description": [
+            "Gọi trực tiếp 0933.44.0262 để nhận Giá Tốt hơn nữa",
+            "Miễn phí chuyển đổi trả góp 0% bằng thẻ tín dụng (từ 1/04/2024 đến 30/06/2024)",
+            "Mua kèm thêm Lens Giảm Cực sốc từ 1/08-1/09/2024",
+            "Giảm thêm 3,000,000 khi mua kèm các lens: SEL 15mm F14G, SEL P10-20mm G, SEL35F18",
+            "Giảm thêm 4,000,000 khi mua kèm SEL1655G",
+            "Tặng thẻ nhớ Sony SD 64gb tốc độ cao 270mb",
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu"
+        ],
+        "summary": [
+            "Định dạng : E-Mount APS-C 26 MP CMOS Exmor R BSI BIONZ X (23.3 * 15.5mm)",
+            "Chip xử lý BIONZ XR",
+            "ISO : 100 - 32000 (Mở rộng 50 – 51200)",
+            "Tỷ lệ Crop : 1.5x",
+            "Chống rung Sensor 5 trục",
+            "Chụp liên tiếp : 11 fps",
+            "Số điểm lấy nét : 759 điểm Fast Hybrid AF",
+            "Màn hình xoay lật LCD cảm ứng 3.0 inch 1,030,000 Dot",
+            "EVF OLED XGA Tru-Finder 0.39 inch 2,359,296 Dot",
+            "Lấy nét mắt theo thời gian thực cả người và động vật",
+            "Hiệu ứng mịn da Soft Skin",
+            "Vòng chuyển đổi giữa chế độ S&Q, Photo, Video",
+            "Streaming trực tiếp thông qua cổng USB-C đến Máy tính",
+            "Hỗ trợ HDR-HLG, S Cinetone, Sony S-Log 3",
+            "Video : XAVC-S UHD 4K 120p / FHD 240p / 10-Bit 4:2:2 không giới hạn",
+            "Pin Sạc Lithium-ion NP-FZ100 (chụp khoảng 570 Shots) ≤5.6 W"
+        ],
+        "warranty": "24 tháng chính hãng Sony VN",
+        "accessories": "Thân máy, Pin, Dây đeo, Hộp, Sách"
+    }
+    ,{
+        "id": 7,
+        "name": "Sony FX3, Mới 100% (Chính Hãng)",
+        "images": [
+            "../imgs/productDetails/7/sony-fx3.jpg",
+            "../imgs/productDetails/7/sony-fx3-24h.jpg",
+            "../imgs/productDetails/7/sony-fx3-24h-5.png",
+            "../imgs/productDetails/7/sony-fx3-24h-6.jpg"
+        ],
+        "price": 85900000,
+        "brand": "Sony",
+        "availability": "In Stock",
+        "description": [
+            "Liên hệ trực tiếp 0933.44.0262 để nhận nhiều Ưu Đãi Tốt Hơn",
+            "Miễn phí chuyển đổi trả góp 0% bằng thẻ tín dụng (Từ 15/10/2024 đến 29/12/2024)",
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens"
+        ],
+        "summary": [
+            "Cảm biến Full-Frame CMOS Exmor R 10.2MP",
+            "UHD 4K 120 | 1080p 240",
+            "10-Bit 4:2:2 XAVC S-I, 16-Bit Raw Output",
+            "ISO : 80-102.400, mở rộng đến 409.600",
+            "Chống rung 5 trục",
+            "S-Log 3 với 15 Stop trên dải động rộng",
+            "Video 4K 60p liên tục nhờ hệ thống thông gió và quạt làm mát",
+            "Picture Profile S-Cinetone",
+            "627 điểm lấy nét tự động khi quay Video",
+            "Giảm hiệu ứng màn trập rung lắc",
+            "Điều khiển thân thiện với người dùng"
+        ],
+        "warranty": "24 tháng chính hãng Sony",
+        "accessories": "Thân máy, pin, Sạc, Dây đeo, Hộp, Sách"
+    }, 
+    {
+        "id": 8,
+        "name": "Sony Cyber-shot DSC RX100 VII, Mới 100% (Chính Hãng)",
+        "images": [
+            "../imgs/productDetails/8/sony-rx100-vii.jpg",
+            "../imgs/productDetails/8/sony-rx100-vii-1.png",
+            "../imgs/productDetails/8/sony-rx100-vii-2.png",
+            "../imgs/productDetails/8/sony-rx100-vi-26.png"
+        ],
+        "price": 27900000,
+        "brand": "Sony",
+        "availability": "In Stock",
+        "description": [
+            "Tặng Thẻ nhớ Sony 64gb 270mb trị giá 1,000,000",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+            "Miễn phí lau sensor bằng dụng cụ chuyên nghiệp trọn đời"
+        ],
+        "summary": [
+            "Bộ cảm biến Exmor RS CMOS 20.1MP tích hợp chip DRAM",
+            "Bộ xử lý hình ảnh BIONZ X & LSI Front-End",
+            "Ống kính ZEISS Vario-Sonnar T * f / 2.8-4.5",
+            "Zoom tương đương 24-200mm (35mm)",
+            "Thiết kế quang học : 15 thấu kính trong 12 nhóm",
+            "Hệ thống lấy nét tự động theo pha Fast Hybrid 0,03 giây với 357 điểm",
+            "Chụp liên tục 20 khung hình / giây hiệu suất AF tương đương với Sony α9",
+            "Video HDR 4K 4K30p với Gamma HLG & S-Log3",
+            "Màn hình cảm ứng LCD 3 inch 921.600 điểm lật 180°",
+            "Khung ngắm điện tử EVF (OLED) 2.359.296 điểm",
+            "Theo dõi thời gian thực và Eye-AF",
+            "Chống rung ổn định hình ảnh 5-Axis SteadyShot",
+            "Kết nối Wifi, NFC"
+        ],
+        "warranty": "24 tháng chính hãng Sony VN",
+        "accessories": "Thân máy, pin, Sạc, dây đeo, hộp, sách, dĩa"
+    },
+    {
+        "id": 9,
+        "name": "Canon Adapter Power Zoom PZ-E1, Mới 98%",
+        "images": [
+            "../imgs/productDetails/9/canon-adapter-power-zoom-pz-e1-cho-canon-18-135mm-usm-1.jpg",
+            "../imgs/productDetails/9/canon-adapter-power-zoom-pz-e1-cho-canon-18-135mm-usm-2.jpg",
+            "../imgs/productDetails/9/canon-adapter-power-zoom-pz-e1-cho-canon-18-135mm-usm-3.jpg",
+            "../imgs/productDetails/9/canon-adapter-power-zoom-pz-e1-cho-canon-18-135mm-usm-4.jpg"
+
+        ],
+        "price": 3290000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens"
+        ],
+        "summary": [
+            "Tương thích với ống kính Canon EF-S 18-135mm IS USM",
+            "Cung cấp điều khiển zoom điện tử",
+            "Chuyển động zoom mượt hơn cho video",
+            "Công tắc chế độ zoom và cài đặt tốc độ zoom",
+            "Cơ chế khóa tích hợp trong ngàm",
+            "Zoom từ xa qua Wi-Fi với EOS 80D"
+        ],
+        "warranty": "06 tháng (Bao test đổi trả trong 07 ngày đầu)",
+        "accessories": "Adapter Power Zoom PZ-E1, hộp, sách hướng dẫn"
+    }, {
+        "id": 10,
+        "name": "Canon EF 14mm f/2.8L II USM, Mới 95% / Code UZ, UC",
+        "images": [
+            "../imgs/productDetails/10/canon-ef-14mm-f2-8-ii.jpg",
+            "../imgs/productDetails/10/lens-canon-14mm-mark-ii.jpg",
+            "../imgs/productDetails/10/nap-day-kinh-canon-14mm.jpg",
+            "../imgs/productDetails/10/ong-kinh-canon-14mm.jpg"
+
+        ],
+        "price": 10990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens"
+        ],
+        "summary": [
+            "Phạm vi khẩu độ: f/2.8 đến f/22",
+            "Lấy nét tự động siêu âm",
+            "Khoảng cách lấy nét tối thiểu: 20.07 cm",
+            "Tích hợp Lens Hood dính vào ống kính"
+        ],
+        "warranty": "06 tháng (Bao test đổi trả trong 07 ngày đầu)",
+        "accessories": "Ống kính, cáp trước, cáp sau, hood tích hợp trên lens"
+    },
+    {
+        "id": 11,
+        "name": "Canon EF 16-35mm f/2.8L USM, Mới 95%",
+        "images": [
+            "../imgs/productDetails/11/canon-ef-16-35mm-mark-1.jpg"
+        ],
+        "price": 8990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+            "Miễn phí dán màn hình máy ảnh"
+        ],
+        "summary": [
+            "Motor siêu âm USM lấy nét nhanh và êm",
+            "Khẩu độ mở lớn F2.8",
+            "Đường kính Filter 77mm",
+            "Kích thước 3.5 x 103mm và nặng 600g"
+        ],
+        "warranty": "06 tháng (Bao test đổi trả trong 07 ngày đầu)",
+        "accessories": "Ống kính, cáp trước, cáp sau, hood"
+    }, {
+        "id": 12,
+        "name": "Canon EF 24-105mm f/3.5-5.6 IS STM, Mới 100% (Chính hãng)",
+        "images": [
+            "../imgs/productDetails/12/canon-24-105stm.jpg"
+        ],
+        "price": 8990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí dán màn hình cho máy ảnh",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens"
+        ],
+        "summary": [
+            "Ống kính sử dụng cho hệ thống máy ảnh FullFrame và Crop",
+            "Hệ thống chống rung IS ổn định hình ảnh",
+            "Công nghệ STM lấy nét nhanh, êm và không tiếng ồn",
+            "Thiết kế từ 2 thấu kính phi cầu, 1 thấu kính ED gồm 7 lá khẩu",
+            "Đường kính Filter 77mm"
+        ],
+        "warranty": "24 tháng chính hãng LBM",
+        "accessories": "Ống kính, Cáp trước sau, Hộp"
+    },
+    {
+        "id": 13,
+        "name": "Canon EF-S 10-18mm f/4.5-5.6 IS STM, Mới 98%",
+        "images": [
+            "../imgs/productDetails/13/canon-ef-s-10-18.jpg",
+            "../imgs/productDetails/13/ef-s-10-18.jpg",
+            "../imgs/productDetails/13/lens-canon-10-18.jpg",
+            "../imgs/productDetails/13/ong-kinh-canon-10-18.jpg"
+
+        ],
+        "price": 4990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí dán màn hình máy ảnh.",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens.",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp.",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens.",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu bạn sẽ làm chủ được chiếc máy ảnh ngay sau khi mua máy."
+        ],
+        "summary": [
+            "Định dạng: Canon EF-S Mount APS-C",
+            "Tiêu cự: 10 - 18mm (tương đương 16-28.8mm ở định dạng 35mm)",
+            "Khẩu độ: f/4.5 - f/29",
+            "Góc nhìn: 107° 30' - 74° 20'",
+            "Độ phóng đại: 0.15x",
+            "Khoảng cách lấy nét tối thiểu: 22 cm",
+            "Cấu trúc quang học: 14 thấu kính / 11 nhóm"
+        ],
+        "warranty": "06 tháng (Bao test đổi trả trong 07 ngày đầu)",
+        "accessories": "Ống kính, cáp trước, cáp sau"
+    },
+    {
+        "id": 14,
+        "name": "Canon EF-S 18-135mm f/3.5-5.6 IS, Mới 95%",
+        "images": [
+            "../imgs/productDetails/14/canon-18-135mm-is.jpg",
+            "../imgs/productDetails/14/lens-canon-18-135-is.jpg",
+             "../imgs/productDetails/14/lens-cap-67mm.jpg",
+            "../imgs/productDetails/14/zoom-canon-18-135mm-is.jpg"
+        ],
+        "price": 3790000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Tặng Lens hood EW73B",
+            "Miễn phí khử nấm mốc bằng UV Pro"
+        ],
+        "summary": [
+            "Cấu tạo ống kính: 16 thấu kính thuộc 12 nhóm",
+            "Góc nhìn ngang: 74° 20' - 11° 30'",
+            "Số lá màn chập: 6",
+            "Khoảng lấy nét nhỏ nhất: 0.45 m",
+            "Đường kính Filter: Ø67 mm",
+            "Kích thước / Trọng lượng: Ø75.4 x 101mm / 455g"
+        ],
+        "warranty": "Không có thông tin bảo hành",
+        "accessories": "Ống kính, Cáp trước, cáp sau"
+    },
+    {
+        "id": 15,
+        "name": "Canon EF-S 18-55mm f/3.5-5.6 IS STM, Mới 98%",
+        "images": [
+            "../imgs/productDetails/15/18-55-is-stm.jpg",
+            "../imgs/productDetails/15/18-55-stm-gia-re.jpg",
+            "../imgs/productDetails/15/canon-18-55-is-stm.jpg",
+            "../imgs/productDetails/15/canon-18-55-stm-gia-re.jpg"
+        ],
+        "price": 1790000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí khử nấm mốc bằng UV Pro"
+        ],
+        "summary": [
+            "Cấu tạo ống kính: 11 thấu kính thuộc 9 nhóm",
+            "Góc nhìn ngang: 74° 20'",
+            "Tiêu cự: 29-88mm (tương đương 35mm)",
+            "Hỗ trợ tính năng Movie Servo AF",
+            "Khoảng cách lấy nét tối thiểu: 9,8\"",
+            "Stepping Motor, Hệ thống lấy nét trong",
+            "Optical Image Stabilization",
+            "Khoảng lấy nét nhỏ nhất: 0.25m",
+            "Đường kính Filter: Ø58 mm",
+            "Kích thước / Trọng lượng: Ø68.5mm x 84.5mm / 200g"
+        ],
+        "warranty": "06 tháng (Bao test đổi trả trong 07 ngày đầu)",
+        "accessories": "Ống kính, cáp trước, cáp sau"
+    },
+    {
+        "id": 16,
+        "name": "Canon RF 100mm f/2.8L IS USM Macro, Mới 100% (Chính hãng Canon)",
+        "images": [
+            "../imgs/productDetails/16/canon-rf-100mm-2-8-l-is-usm-macro.jpg",
+            "../imgs/productDetails/16/rf-100mm-macro-2.jpg",
+             "../imgs/productDetails/16/rf-100mm-macro-4.jpg",
+            "../imgs/productDetails/16/rf-100mm-macro-5.jpg"
+        ],
+        "price": 31990000,
+        "brand": "Canon",
+        "availability": "In Stock",
+        "description": [
+            "Miễn phí vệ sinh Sensor máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh và ống kính",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens"
+        ],
+        "summary": [
+            "Định dạng: Canon RF Mount - FullFrame",
+            "Khẩu độ: f/2.8 - f/32",
+            "Góc nhìn: 24°",
+            "Cấu trúc quang học: 17 thấu kính / 13 nhóm",
+            "Độ phóng đại: 1.4x với AF",
+            "Khoảng cách lấy nét tối thiểu: 26 cm",
+            "Lớp phủ Super Spectra",
+            "Hệ thống lấy nét USM AF mượt mà, không ồn",
+            "Ổn định hình ảnh quang học; Hybrid IS",
+            "Vòng điều khiển để thay đổi thiết lập trực tiếp",
+            "9 lá khẩu tròn"
+        ],
+        "warranty": "24 tháng chính hãng Canon Việt Nam",
+        "accessories": "Ống kính, cáp trước, cáp sau"
+    },
+    {
+        "id": 24,
+        "name": "Máy ảnh chụp và in ngay Canon iNSPIC [C]",
+        "price": 4200000,
+        "images":[
+            "../imgs/productDetails/24/canon-inspic.png",
+            "../imgs/productDetails/24/canon-inspic-2.jpg",
+             "../imgs/productDetails/24/canon-inspic-3.jpg",
+            "../imgs/productDetails/24/canon-inspic-2.jpg"
+        ],
+        "brand": "Canon",
+        "warranty": "12 tháng",
+        "accessories": [
+            "Máy ảnh chụp và in ngay iNSPIC",
+            "Hướng dẫn sử dụng",
+            "Cáp USB",
+            "Giấy in ảnh 10 tấm",
+            "Dây đeo cổ tay"
+        ],
+        "description": [
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí khử nấm mốc bằng B+W pro cho máy ảnh & Lens"
+        ],
+        "summary": [
+            "Chụp và in ngay lập tức",
+            "Độ phân giải 5 Megapixel",
+            "Đèn flash camera tự động",
+            "In lại nhanh một chạm",
+            "In chống nhòe, chống rách với khả năng dán bóc",
+            "Không cần mực với công nghệ ZINK™",
+            "Thiết kế nhỏ gọn, dễ dàng mang theo bất cứ đâu",
+            "Kích thước: 121 x 78,3 x 23,7 mm",
+            "Trọng lượng: 170 Gr"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Máy chụp ảnh lấy liền Fujifilm instax mini 70",
+        "price": 2990000,
+        "images": [
+            "../imgs/productDetails/23/fujifilm-instax-mini-70.jpg",
+            "../imgs/productDetails/23/may-chup-lay-lien-instax-70.jpg",
+            "../imgs/productDetails/23/may-chup-lay-lien-mini-70.jpg",
+            "../imgs/productDetails/23/than-may-instax-mini-70.jpg"
+        ],
+        "brand": "Fujifilm",
+        "warranty": "12 tháng chính hãng Fujifilm Việt Nam",
+        "accessories": [
+            "Thân máy",
+            "2 pin CR2",
+            "Dây đeo",
+            "Hộp sản phẩm"
+        ],
+        "description": [
+            "Tặng 30 tấm giấy in ảnh Instax trị giá 480,000"
+        ],
+        "summary": [
+            "Kích thước phim: 86mm x 54mm",
+            "Kích thước Hình: 62mm x 46mm",
+            "Sử dụng hai pin lithium CR2 / DL CR2",
+            "Kích thước máy: 99,2 x 113,7 x 53,2mm",
+            "Trọng lượng: 281g"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Insta360 GO 3S, Mới 100% (Chính hãng)",
+        "price": 10590000,
+        "images": [
+            "../imgs/productDetails/22/insta360-go-3s.jpg",
+            "../imgs/productDetails/22/insta360-go-3s-1.jpg",
+            "../imgs/productDetails/22/go-2-mini.jpg",
+            "../imgs/productDetails/22/insta360-go2.jpg"
+        ],
+        "brand": "Insta360",
+        "warranty": "12 tháng Chính Hãng",
+        "accessories": [
+            "Insta360 GO 3S",
+            "Action Pod",
+            "Dây đeo Magnet Pendant",
+            "Easy Clip",
+            "Pivot Stand",
+            "Bảo vệ ống kính Lens Guard"
+        ],
+        "description": [
+            "Miễn phí dán màn hình máy ảnh",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu"
+        ],
+        "summary": [
+            "Tiêu cự tương đương 35mm: 16mm",
+            "Cảm biến: Size-Unspecified CMOS",
+            "Khẩu độ lớn nhất: F/2.8",
+            "Pin: GO 3S: 310mAh, Action Pod: 1270mAh",
+            "Bộ nhớ trong: 64GB, 128GB",
+            "Thời gian sử dụng: GO 3S: 38 phút, GO 3S + ActionPod: 140 phút",
+            "Bluetooth: Bluetooth 5.0",
+            "Kích thước: GO 3S: 25.6 * 54.4 * 24.8 mm, ActionPod khi mở ra: 63.5 * 47.6 * 29.5 mm, ActionPod khi đóng vào: 63.5 * 86.6 * 29.9 mm",
+            "Trọng lượng: GO 3S: 39.1 Gram, ActionPod: 96.3 Gram"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Fujifilm X-A3 + 16-50mm f/3.5-5.6 OIS II",
+        "price": 6490000,
+        "original_price": 14900000,
+        "discount": 8410000,
+        "images": [
+            "../imgs/productDetails/21/1.jpg",
+            "../imgs/productDetails/21/2.jpg",
+            "../imgs/productDetails/21/3.jpg",
+            "../imgs/productDetails/21/4.jpg"
+        ],
+        "brand": "Fujifilm",
+        "status": "Hết hàng",
+        "warranty": "06 tháng (Bao test đổi trả trong 7 ngày đầu)",
+        "accessories": [
+            "Thân máy",
+            "Lens 16-50mm",
+            "Pin",
+            "Sạc Wasabi",
+            "Dây đeo"
+        ],
+        "offers": [
+            "Miễn phí dán màn hình trọn đời máy",
+            "Miễn phí vệ sinh ngoài máy ảnh và lens định kỳ"
+        ],
+        "summary": [
+            "Độ phân giải 24.2MP Cảm biến CMOS kích thước APS-C",
+            "Hệ thống lấy nét 77 điểm toàn khung và 49 điểm đơn",
+            "Màn hình LCD cảm ứng, kích thước 3\" (độ phân giải 1,040 điểm ảnh) có thể lật lên 180°",
+            "Thêm 2 filter màu phim \"PRO Neg.Hi\" và \"PRO Neg.Std.\"",
+            "Thêm chế độ Panorama và Time Lapse",
+            "Kết nối: Wifi, Micro USB (2.0)"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Micro không dây RODE Wireless Pro (Chính Hãng)",
+        "price": 8890000,
+        "images": [
+            "../imgs/productDetails/20/1.jpg",
+            "../imgs/productDetails/20/wireless-pro-2.jpg",
+            "../imgs/productDetails/20/wireless-pro-5.jpg",
+            "../imgs/productDetails/20/wireless-pro-6.jpg"
+        ],
+        "brand": "Rode",
+        "warranty": "12 Tháng Chính Hãng",
+        "accessories": [
+            "2 Bộ phát",
+            "1 Đầu thu",
+            "Cáp 3.5mm SC2",
+            "Cáp Type-C to Lightning SC21",
+            "Cáp Type-C to Type-C SC22",
+            "Cáp Type-C to Type-a SC23",
+            "3 bông lọc gió",
+            "2 Lavalier II",
+            "2 Kẹp MagClip GO",
+            "Sách hướng dẫn",
+            "Hộp sạc",
+            "Hộp đựng"
+        ],
+        "description": [
+            "Miễn phí dán màn hình máy ảnh.",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens.",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp.",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens.",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu."
+        ],
+        "summary": [
+            "Micro chính hãng, sản xuất tại Australia.",
+            "Sử dụng cho phỏng vấn, Vlog, Podcast.",
+            "Công nghệ đường truyền: 2.4GHz.",
+            "Công nghệ GainAssist tự động điều chỉnh âm thanh.",
+            "Tích hợp Micro đa hướng và input Micro 3.5mm.",
+            "Thiết kế nhỏ gọn, 1 đầu thu và 2 bộ phát.",
+            "Nhiều ứng dụng hữu ích: Rode Central, RODE Connect, RODE Reporter và Rode Capture.",
+            "Sạc 2.5 giờ, Pin dùng 7 tiếng.",
+            "Cổng sạc: USB-C.",
+            "Led hiển thị trạng thái pin và kết nối.",
+            "Phạm vi hoạt động tối đa: 260m.",
+            "Kích thước bộ phát: 46.5 * 44 * 20 mm.",
+            "Kích thước đầu thu: 46.5 * 44 * 20 mm.",
+            "Kích thước hộp sạc: 101 * 82 * 70 mm.",
+            "Trọng lượng bộ phát: 35 Gram.",
+            "Trọng lượng đầu thu: 36 Gram.",
+            "Trọng lượng hộp sạc: 177 Gram."
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Microphone Wireless DJI 2 (2 Phát + 1 Nhận + Hộp sạc) (Chính Hãng)",
+        "price": 8350000,
+        "images": [
+            "../imgs/productDetails/19/1.jpg",
+            "../imgs/productDetails/19/microphone-wireless-dji-2-mic-doi-11.jpg",
+            "../imgs/productDetails/19/microphone-wireless-dji-2-mic-doi-2.jpg",
+            "../imgs/productDetails/19/microphone-wireless-dji-2-mic-doi-3.jpg"
+        ],
+        "brand": "DJI",
+        "warranty": "12 Tháng Chính Hãng",
+        "accessories": [
+            "02 Bộ phát Clip-on",
+            "Bộ thu kênh kép",
+            "Hộp sạc",
+            "Đế chuyển đổi Type-C",
+            "Đế chuyển Lightning",
+            "Cáp 2.5mm",
+            "Cáp sạc Type-C",
+            "Túi đựng",
+            "Hộp"
+        ],
+        "description": [
+            "Miễn phí dán màn hình máy ảnh.",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens.",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp.",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens.",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu."
+        ],
+        "summary": [
+            "Ghi âm chất lượng cao.",
+            "Thiết kế nhỏ gọn, ghép nối dễ dàng.",
+            "Ghi nội bộ 32-bit đỉnh cao.",
+            "Khử tiếng ồn thông minh phù hợp ở mọi bối cảnh.",
+            "Phạm vi truyền âm thanh lên tới 250m.",
+            "Thời gian sử dụng lên đến 18 tiếng với hộp sạc.",
+            "Hộp sạc di động cải tiến (không cần cáp sạc USB).",
+            "Màn hình OLED sống động (Báo pin, Kênh, Âm lượng, Menu).",
+            "Có jack chuyển dùng cho DJI Action, Smartphone, Camera, Laptop.",
+            "Chế độ đầu ra Mono / Stereo có thể lựa chọn.",
+            "Màn hình tai nghe thời gian thực.",
+            "Dung lượng pin: TX: 360mAh, RX: 360mAh, Vỏ sạc: 3250mAh.",
+            "Thời gian sử dụng: 6 giờ.",
+            "Hộp sạc: Tối đa 2 lần sạc cho 2 TX và 1 RX.",
+            "Thời gian sạc: TX-RX: 70 phút, Hộp sạc: 2 giờ 40 phút.",
+            "Kích thước: TX: 46.06 * 30.96 * 21.83 mm, RX: 54.2 * 28.36 * 22.49 mm, Hộp sạc: 116 * 41.5 * 59.72 mm.",
+            "Trọng lượng: TX-RX: 28 Gram, Hộp sạc: 200 Gram."
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Đèn Led Colbor CL100XM 110W, Mới 100% (Chính Hãng)",
+        "price": 3390000,
+        "images": [
+            "../imgs/productDetails/18/1.jpg",
+            "../imgs/productDetails/18/2.jpg",
+            "../imgs/productDetails/18/3.jpg",
+            "../imgs/productDetails/18/4.jpg"
+        ],
+        "brand": "Colbor",
+        "warranty": "12 tháng",
+        "accessories": [
+            "Led CL220R RGB",
+            "Chóa tản sáng",
+            "Adapter nguồn",
+            "Dây cáp",
+            "Thanh mở rộng NATO",
+            "Chụp bảo vệ đầu đèn",
+            "Túi đựng",
+            "Hộp",
+            "Sách"
+        ],
+        "description": [
+            "Miễn phí dán màn hình máy ảnh.",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens.",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp.",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens.",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu."
+        ],
+        "summary": [
+            "Chuyên dụng cho Studio & người làm nội dung.",
+            "Chất liệu: Hợp kim Nhôm + PolyCarbonate.",
+            "Công suất tiêu thụ: 110W.",
+            "Nhiệt độ màu: 5600K CCT, CRI 97+.",
+            "Dimming: 0-100%.",
+            "58.100 Lux ở 1m.",
+            "10 hiệu ứng ánh sáng.",
+            "Chuẩn ngàm Bowens.",
+            "Công suất đầu vào: 20VDC – 5A.",
+            "Hệ thống tản nhiệt êm ái.",
+            "Điểu khiển trực tiếp qua App COLBOR Studio.",
+            "Đầu nối: Type-C.",
+            "Nguồn: AC, Pin V-mount hoặc 2 Pin NP-F.",
+            "Kích thước: 152 * 90 * 80 mm.",
+            "Trọng lượng: 800 Gram."
+        ]
+    }
+    ,{
+        "id": 17,
+        "name": "Đèn Led Ulanzi VL120Bi 120W Bi-Color COB Light, Mới 100% (Chính Hãng)",
+        "price": 2150000,
+        "images": [
+            "../imgs/productDetails/17/1.png",
+           "../imgs/productDetails/17/2.jpg",
+           "../imgs/productDetails/17/3.jpg",
+           "../imgs/productDetails/17/4.jpg"
+        ],
+        "brand": "Ulanzi",
+        "warranty": "12 Tháng Chính Hãng",
+        "accessories": [
+            "Đèn Led Ulanzi VL120Bi",
+            "Chóa đèn Mini Bowen",
+            "Sách hướng dẫn",
+            "Không Pin",
+            "Không Adapter nguồn"
+        ],
+        "description": [
+            "Miễn phí dán màn hình máy ảnh.",
+            "Miễn phí vệ sinh ngoài máy ảnh & Lens.",
+            "Miễn phí lau Sensor bằng thiết bị chuyên nghiệp.",
+            "Miễn phí khử nấm mốc bằng UV Pro cho máy ảnh & Lens.",
+            "Hướng dẫn chụp ảnh cho người mới bắt đầu."
+        ],
+        "summary": [
+            "Chiếu sáng: 33220 Lux/0.3m.",
+            "Nhiệt độ màu: 2700K-6500K.",
+            "CRI: >95.",
+            "Công suất: 120W.",
+            "Góc chiếu sáng: 160°.",
+            "6 hiệu ứng đặc biệt.",
+            "App kết nối: Ulanzi Connect.",
+            "Khoảng cách điều khiển: 30cm.",
+            "Kích thước: 121 * 121 * 156 mm.",
+            "Trọng lượng: 973 Gram."
+        ]
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+]
